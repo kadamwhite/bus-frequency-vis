@@ -11,7 +11,7 @@ var browserify = require( 'browserify-middleware' );
 var combynExpress = require( 'combynexpress' );
 
 var routes = require( './routes/index' );
-var users = require( './routes/users' );
+var data = require( './routes/data' );
 
 var app = express(  );
 
@@ -52,7 +52,7 @@ app.use( express.static( publicDir ) );
 // Routing
 
 app.use( '/', routes );
-app.use( '/users', users );
+app.use( '/data', data );
 
 // catch 404 and forward to error handler
 app.use( function( req, res, next ) {

@@ -1,5 +1,7 @@
 'use strict';
 
-var partial = require( './templates/partial.html' );
+var d3 = require( 'd3' );
 
-console.log( partial.render({ val: 'demo' }) );
+var data = d3.json( '/data', function( data ) {
+  console.log( data );
+});
