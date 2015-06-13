@@ -2,6 +2,8 @@
 
 var d3 = require( 'd3' );
 
-var data = d3.json( '/data', function( data ) {
+function renderVis( data ) {
   console.log( data );
-});
+}
+
+d3.json( '/data', renderVis );
