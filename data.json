@@ -1,0 +1,2459 @@
+[{
+  "stop_id": "2681",
+  "stop_name": "Highland Ave @ Benton Rd",
+  "mode": [{
+    "route_type": "3",
+    "mode_name": "Bus",
+    "route": [{
+      "route_id": "88",
+      "route_name": "88",
+      "direction": [{
+        "direction_id": "1",
+        "direction_name": "Inbound",
+        "trip": [{
+          "trip_id": "26616679",
+          "trip_name": "6:40 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434278820",
+          "sch_dep_dt": "1434278820"
+        }, {
+          "trip_id": "26616715",
+          "trip_name": "7:40 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434282420",
+          "sch_dep_dt": "1434282420"
+        }, {
+          "trip_id": "26616685",
+          "trip_name": "8:40 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434286020",
+          "sch_dep_dt": "1434286020"
+        }, {
+          "trip_id": "26616719",
+          "trip_name": "9:10 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434287820",
+          "sch_dep_dt": "1434287820"
+        }, {
+          "trip_id": "26616634",
+          "trip_name": "9:42 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434289860",
+          "sch_dep_dt": "1434289860"
+        }, {
+          "trip_id": "26617139",
+          "trip_name": "10:20 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434292140",
+          "sch_dep_dt": "1434292140"
+        }, {
+          "trip_id": "26617140",
+          "trip_name": "11:05 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434294840",
+          "sch_dep_dt": "1434294840"
+        }, {
+          "trip_id": "26617141",
+          "trip_name": "11:45 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434297240",
+          "sch_dep_dt": "1434297240"
+        }, {
+          "trip_id": "26617142",
+          "trip_name": "12:25 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434299700",
+          "sch_dep_dt": "1434299700"
+        }, {
+          "trip_id": "26617143",
+          "trip_name": "1:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434302100",
+          "sch_dep_dt": "1434302100"
+        }, {
+          "trip_id": "26617144",
+          "trip_name": "1:45 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434304560",
+          "sch_dep_dt": "1434304560"
+        }, {
+          "trip_id": "26617145",
+          "trip_name": "2:25 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434306960",
+          "sch_dep_dt": "1434306960"
+        }, {
+          "trip_id": "26617146",
+          "trip_name": "3:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434309360",
+          "sch_dep_dt": "1434309360"
+        }, {
+          "trip_id": "26617147",
+          "trip_name": "3:45 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434311640",
+          "sch_dep_dt": "1434311640"
+        }, {
+          "trip_id": "26617148",
+          "trip_name": "4:25 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434314040",
+          "sch_dep_dt": "1434314040"
+        }, {
+          "trip_id": "26617149",
+          "trip_name": "5:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434316440",
+          "sch_dep_dt": "1434316440"
+        }, {
+          "trip_id": "26616638",
+          "trip_name": "5:45 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434318840",
+          "sch_dep_dt": "1434318840"
+        }, {
+          "trip_id": "26616656",
+          "trip_name": "6:25 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434321240",
+          "sch_dep_dt": "1434321240"
+        }, {
+          "trip_id": "26616725",
+          "trip_name": "7:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434323640",
+          "sch_dep_dt": "1434323640"
+        }, {
+          "trip_id": "26616641",
+          "trip_name": "7:45 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434326040",
+          "sch_dep_dt": "1434326040"
+        }, {
+          "trip_id": "26616697",
+          "trip_name": "8:25 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434328440",
+          "sch_dep_dt": "1434328440"
+        }, {
+          "trip_id": "26616729",
+          "trip_name": "9:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434330840",
+          "sch_dep_dt": "1434330840"
+        }, {
+          "trip_id": "26616646",
+          "trip_name": "9:45 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434333240",
+          "sch_dep_dt": "1434333240"
+        }, {
+          "trip_id": "26616667",
+          "trip_name": "10:25 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434335580",
+          "sch_dep_dt": "1434335580"
+        }, {
+          "trip_id": "26616732",
+          "trip_name": "11:00 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434337680",
+          "sch_dep_dt": "1434337680"
+        }, {
+          "trip_id": "26616650",
+          "trip_name": "11:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434339480",
+          "sch_dep_dt": "1434339480"
+        }, {
+          "trip_id": "26616673",
+          "trip_name": "12:10 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434341880",
+          "sch_dep_dt": "1434341880"
+        }, {
+          "trip_id": "26616708",
+          "trip_name": "12:40 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434343680",
+          "sch_dep_dt": "1434343680"
+        }]
+      }]
+    }, {
+      "route_id": "90",
+      "route_name": "90",
+      "direction": [{
+        "direction_id": "1",
+        "direction_name": "Inbound",
+        "trip": [{
+          "trip_id": "26572463",
+          "trip_name": "10:30 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434292500",
+          "sch_dep_dt": "1434292500"
+        }, {
+          "trip_id": "26573219",
+          "trip_name": "11:40 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434296700",
+          "sch_dep_dt": "1434296700"
+        }, {
+          "trip_id": "26573218",
+          "trip_name": "12:50 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434300900",
+          "sch_dep_dt": "1434300900"
+        }, {
+          "trip_id": "26573217",
+          "trip_name": "2:00 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434305160",
+          "sch_dep_dt": "1434305160"
+        }, {
+          "trip_id": "26573216",
+          "trip_name": "3:10 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434309300",
+          "sch_dep_dt": "1434309300"
+        }, {
+          "trip_id": "26573215",
+          "trip_name": "4:20 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434313560",
+          "sch_dep_dt": "1434313560"
+        }, {
+          "trip_id": "26573214",
+          "trip_name": "5:30 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434317700",
+          "sch_dep_dt": "1434317700"
+        }]
+      }]
+    }]
+  }]
+}, {
+  "stop_id": "2681",
+  "stop_name": "Highland Ave @ Benton Rd",
+  "mode": [{
+    "route_type": "3",
+    "mode_name": "Bus",
+    "route": [{
+      "route_id": "88",
+      "route_name": "88",
+      "direction": [{
+        "direction_id": "1",
+        "direction_name": "Inbound",
+        "trip": [{
+          "trip_id": "26726101",
+          "trip_name": "5:16 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434360180",
+          "sch_dep_dt": "1434360180"
+        }, {
+          "trip_id": "26726126",
+          "trip_name": "5:41 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434361680",
+          "sch_dep_dt": "1434361680"
+        }, {
+          "trip_id": "26726106",
+          "trip_name": "6:06 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434363180",
+          "sch_dep_dt": "1434363180"
+        }, {
+          "trip_id": "26726179",
+          "trip_name": "6:28 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434364740",
+          "sch_dep_dt": "1434364740"
+        }, {
+          "trip_id": "26726107",
+          "trip_name": "6:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434366120",
+          "sch_dep_dt": "1434366120"
+        }, {
+          "trip_id": "26726124",
+          "trip_name": "7:06 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434367080",
+          "sch_dep_dt": "1434367080"
+        }, {
+          "trip_id": "26726166",
+          "trip_name": "7:22 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434368100",
+          "sch_dep_dt": "1434368100"
+        }, {
+          "trip_id": "26726104",
+          "trip_name": "7:38 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434369180",
+          "sch_dep_dt": "1434369180"
+        }, {
+          "trip_id": "26726055",
+          "trip_name": "7:54 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434370140",
+          "sch_dep_dt": "1434370140"
+        }, {
+          "trip_id": "26726121",
+          "trip_name": "8:10 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434371100",
+          "sch_dep_dt": "1434371100"
+        }, {
+          "trip_id": "26726103",
+          "trip_name": "8:28 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434372180",
+          "sch_dep_dt": "1434372180"
+        }, {
+          "trip_id": "26726056",
+          "trip_name": "8:46 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434373260",
+          "sch_dep_dt": "1434373260"
+        }, {
+          "trip_id": "26726122",
+          "trip_name": "9:03 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434374100",
+          "sch_dep_dt": "1434374100"
+        }, {
+          "trip_id": "26726173",
+          "trip_name": "9:25 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434375420",
+          "sch_dep_dt": "1434375420"
+        }, {
+          "trip_id": "26726071",
+          "trip_name": "9:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434376920",
+          "sch_dep_dt": "1434376920"
+        }, {
+          "trip_id": "26726306",
+          "trip_name": "10:15 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434378420",
+          "sch_dep_dt": "1434378420"
+        }, {
+          "trip_id": "26726024",
+          "trip_name": "10:40 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434379920",
+          "sch_dep_dt": "1434379920"
+        }, {
+          "trip_id": "26726131",
+          "trip_name": "11:05 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434381420",
+          "sch_dep_dt": "1434381420"
+        }, {
+          "trip_id": "26726196",
+          "trip_name": "11:30 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434382920",
+          "sch_dep_dt": "1434382920"
+        }, {
+          "trip_id": "26726799",
+          "trip_name": "11:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434384120",
+          "sch_dep_dt": "1434384120"
+        }, {
+          "trip_id": "26726167",
+          "trip_name": "12:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434385320",
+          "sch_dep_dt": "1434385320"
+        }, {
+          "trip_id": "26726798",
+          "trip_name": "12:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434386520",
+          "sch_dep_dt": "1434386520"
+        }, {
+          "trip_id": "26726059",
+          "trip_name": "12:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434387720",
+          "sch_dep_dt": "1434387720"
+        }, {
+          "trip_id": "26726034",
+          "trip_name": "1:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434388920",
+          "sch_dep_dt": "1434388920"
+        }, {
+          "trip_id": "26726151",
+          "trip_name": "1:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434390120",
+          "sch_dep_dt": "1434390120"
+        }, {
+          "trip_id": "26726795",
+          "trip_name": "1:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434391320",
+          "sch_dep_dt": "1434391320"
+        }, {
+          "trip_id": "26726305",
+          "trip_name": "2:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434392520",
+          "sch_dep_dt": "1434392520"
+        }, {
+          "trip_id": "26726162",
+          "trip_name": "2:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434393720",
+          "sch_dep_dt": "1434393720"
+        }, {
+          "trip_id": "26726154",
+          "trip_name": "2:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434394920",
+          "sch_dep_dt": "1434394920"
+        }, {
+          "trip_id": "26726188",
+          "trip_name": "3:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434396120",
+          "sch_dep_dt": "1434396120"
+        }, {
+          "trip_id": "26726110",
+          "trip_name": "3:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434397320",
+          "sch_dep_dt": "1434397320"
+        }, {
+          "trip_id": "26726132",
+          "trip_name": "3:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434398520",
+          "sch_dep_dt": "1434398520"
+        }, {
+          "trip_id": "26726186",
+          "trip_name": "4:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434399720",
+          "sch_dep_dt": "1434399720"
+        }, {
+          "trip_id": "26726117",
+          "trip_name": "4:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434400920",
+          "sch_dep_dt": "1434400920"
+        }, {
+          "trip_id": "26726176",
+          "trip_name": "4:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434402120",
+          "sch_dep_dt": "1434402120"
+        }, {
+          "trip_id": "26726143",
+          "trip_name": "5:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434403320",
+          "sch_dep_dt": "1434403320"
+        }, {
+          "trip_id": "26726189",
+          "trip_name": "5:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434404580",
+          "sch_dep_dt": "1434404580"
+        }, {
+          "trip_id": "26726112",
+          "trip_name": "5:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434405780",
+          "sch_dep_dt": "1434405780"
+        }, {
+          "trip_id": "26726175",
+          "trip_name": "6:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434406980",
+          "sch_dep_dt": "1434406980"
+        }, {
+          "trip_id": "26726127",
+          "trip_name": "6:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434408180",
+          "sch_dep_dt": "1434408180"
+        }, {
+          "trip_id": "26726116",
+          "trip_name": "6:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434409380",
+          "sch_dep_dt": "1434409380"
+        }, {
+          "trip_id": "26726139",
+          "trip_name": "7:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434410580",
+          "sch_dep_dt": "1434410580"
+        }, {
+          "trip_id": "26726790",
+          "trip_name": "7:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434411600",
+          "sch_dep_dt": "1434411600"
+        }, {
+          "trip_id": "26726119",
+          "trip_name": "7:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434412800",
+          "sch_dep_dt": "1434412800"
+        }, {
+          "trip_id": "26726307",
+          "trip_name": "8:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434414000",
+          "sch_dep_dt": "1434414000"
+        }, {
+          "trip_id": "26726147",
+          "trip_name": "8:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434415500",
+          "sch_dep_dt": "1434415500"
+        }, {
+          "trip_id": "26726205",
+          "trip_name": "9:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434417300",
+          "sch_dep_dt": "1434417300"
+        }, {
+          "trip_id": "26726089",
+          "trip_name": "9:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434418980",
+          "sch_dep_dt": "1434418980"
+        }, {
+          "trip_id": "26726133",
+          "trip_name": "10:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434420780",
+          "sch_dep_dt": "1434420780"
+        }, {
+          "trip_id": "26726208",
+          "trip_name": "10:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434422580",
+          "sch_dep_dt": "1434422580"
+        }, {
+          "trip_id": "26726094",
+          "trip_name": "11:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434424380",
+          "sch_dep_dt": "1434424380"
+        }, {
+          "trip_id": "26726794",
+          "trip_name": "11:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434426180",
+          "sch_dep_dt": "1434426180"
+        }, {
+          "trip_id": "26726140",
+          "trip_name": "12:05 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434427920",
+          "sch_dep_dt": "1434427920"
+        }, {
+          "trip_id": "26726209",
+          "trip_name": "12:35 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434429720",
+          "sch_dep_dt": "1434429720"
+        }]
+      }]
+    }, {
+      "route_id": "90",
+      "route_name": "90",
+      "direction": [{
+        "direction_id": "1",
+        "direction_name": "Inbound",
+        "trip": [{
+          "trip_id": "26602729",
+          "trip_name": "6:30 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434364560",
+          "sch_dep_dt": "1434364560"
+        }, {
+          "trip_id": "26602734",
+          "trip_name": "7:10 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434366960",
+          "sch_dep_dt": "1434366960"
+        }, {
+          "trip_id": "26602716",
+          "trip_name": "7:50 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434369360",
+          "sch_dep_dt": "1434369360"
+        }, {
+          "trip_id": "26602725",
+          "trip_name": "8:30 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434371760",
+          "sch_dep_dt": "1434371760"
+        }, {
+          "trip_id": "26602737",
+          "trip_name": "9:15 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434374400",
+          "sch_dep_dt": "1434374400"
+        }, {
+          "trip_id": "26602738",
+          "trip_name": "10:25 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434378600",
+          "sch_dep_dt": "1434378600"
+        }, {
+          "trip_id": "26602722",
+          "trip_name": "11:35 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434382920",
+          "sch_dep_dt": "1434382920"
+        }, {
+          "trip_id": "26602724",
+          "trip_name": "12:45 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434387120",
+          "sch_dep_dt": "1434387120"
+        }, {
+          "trip_id": "26602732",
+          "trip_name": "1:25 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434389520",
+          "sch_dep_dt": "1434389520"
+        }, {
+          "trip_id": "26602711",
+          "trip_name": "2:05 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434391920",
+          "sch_dep_dt": "1434391920"
+        }, {
+          "trip_id": "26602710",
+          "trip_name": "3:00 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434395160",
+          "sch_dep_dt": "1434395160"
+        }, {
+          "trip_id": "26602742",
+          "trip_name": "3:45 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434397860",
+          "sch_dep_dt": "1434397860"
+        }, {
+          "trip_id": "26602735",
+          "trip_name": "4:35 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434400860",
+          "sch_dep_dt": "1434400860"
+        }, {
+          "trip_id": "26602721",
+          "trip_name": "5:15 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434403260",
+          "sch_dep_dt": "1434403260"
+        }, {
+          "trip_id": "26602718",
+          "trip_name": "6:10 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434406560",
+          "sch_dep_dt": "1434406560"
+        }, {
+          "trip_id": "26602709",
+          "trip_name": "6:50 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434408960",
+          "sch_dep_dt": "1434408960"
+        }, {
+          "trip_id": "26602740",
+          "trip_name": "7:30 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434411300",
+          "sch_dep_dt": "1434411300"
+        }, {
+          "trip_id": "26602714",
+          "trip_name": "8:35 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434415200",
+          "sch_dep_dt": "1434415200"
+        }, {
+          "trip_id": "26602726",
+          "trip_name": "9:40 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434419100",
+          "sch_dep_dt": "1434419100"
+        }]
+      }]
+    }]
+  }]
+}, {
+  "stop_id": "2681",
+  "stop_name": "Highland Ave @ Benton Rd",
+  "mode": [{
+    "route_type": "3",
+    "mode_name": "Bus",
+    "route": [{
+      "route_id": "88",
+      "route_name": "88",
+      "direction": [{
+        "direction_id": "1",
+        "direction_name": "Inbound",
+        "trip": [{
+          "trip_id": "26726101",
+          "trip_name": "5:16 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434446580",
+          "sch_dep_dt": "1434446580"
+        }, {
+          "trip_id": "26726126",
+          "trip_name": "5:41 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434448080",
+          "sch_dep_dt": "1434448080"
+        }, {
+          "trip_id": "26726106",
+          "trip_name": "6:06 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434449580",
+          "sch_dep_dt": "1434449580"
+        }, {
+          "trip_id": "26726179",
+          "trip_name": "6:28 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434451140",
+          "sch_dep_dt": "1434451140"
+        }, {
+          "trip_id": "26726107",
+          "trip_name": "6:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434452520",
+          "sch_dep_dt": "1434452520"
+        }, {
+          "trip_id": "26726124",
+          "trip_name": "7:06 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434453480",
+          "sch_dep_dt": "1434453480"
+        }, {
+          "trip_id": "26726166",
+          "trip_name": "7:22 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434454500",
+          "sch_dep_dt": "1434454500"
+        }, {
+          "trip_id": "26726104",
+          "trip_name": "7:38 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434455580",
+          "sch_dep_dt": "1434455580"
+        }, {
+          "trip_id": "26726055",
+          "trip_name": "7:54 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434456540",
+          "sch_dep_dt": "1434456540"
+        }, {
+          "trip_id": "26726121",
+          "trip_name": "8:10 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434457500",
+          "sch_dep_dt": "1434457500"
+        }, {
+          "trip_id": "26726103",
+          "trip_name": "8:28 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434458580",
+          "sch_dep_dt": "1434458580"
+        }, {
+          "trip_id": "26726056",
+          "trip_name": "8:46 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434459660",
+          "sch_dep_dt": "1434459660"
+        }, {
+          "trip_id": "26726122",
+          "trip_name": "9:03 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434460500",
+          "sch_dep_dt": "1434460500"
+        }, {
+          "trip_id": "26726173",
+          "trip_name": "9:25 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434461820",
+          "sch_dep_dt": "1434461820"
+        }, {
+          "trip_id": "26726071",
+          "trip_name": "9:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434463320",
+          "sch_dep_dt": "1434463320"
+        }, {
+          "trip_id": "26726306",
+          "trip_name": "10:15 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434464820",
+          "sch_dep_dt": "1434464820"
+        }, {
+          "trip_id": "26726024",
+          "trip_name": "10:40 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434466320",
+          "sch_dep_dt": "1434466320"
+        }, {
+          "trip_id": "26726131",
+          "trip_name": "11:05 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434467820",
+          "sch_dep_dt": "1434467820"
+        }, {
+          "trip_id": "26726196",
+          "trip_name": "11:30 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434469320",
+          "sch_dep_dt": "1434469320"
+        }, {
+          "trip_id": "26726799",
+          "trip_name": "11:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434470520",
+          "sch_dep_dt": "1434470520"
+        }, {
+          "trip_id": "26726167",
+          "trip_name": "12:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434471720",
+          "sch_dep_dt": "1434471720"
+        }, {
+          "trip_id": "26726798",
+          "trip_name": "12:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434472920",
+          "sch_dep_dt": "1434472920"
+        }, {
+          "trip_id": "26726059",
+          "trip_name": "12:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434474120",
+          "sch_dep_dt": "1434474120"
+        }, {
+          "trip_id": "26726034",
+          "trip_name": "1:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434475320",
+          "sch_dep_dt": "1434475320"
+        }, {
+          "trip_id": "26726151",
+          "trip_name": "1:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434476520",
+          "sch_dep_dt": "1434476520"
+        }, {
+          "trip_id": "26726795",
+          "trip_name": "1:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434477720",
+          "sch_dep_dt": "1434477720"
+        }, {
+          "trip_id": "26726305",
+          "trip_name": "2:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434478920",
+          "sch_dep_dt": "1434478920"
+        }, {
+          "trip_id": "26726162",
+          "trip_name": "2:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434480120",
+          "sch_dep_dt": "1434480120"
+        }, {
+          "trip_id": "26726154",
+          "trip_name": "2:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434481320",
+          "sch_dep_dt": "1434481320"
+        }, {
+          "trip_id": "26726188",
+          "trip_name": "3:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434482520",
+          "sch_dep_dt": "1434482520"
+        }, {
+          "trip_id": "26726110",
+          "trip_name": "3:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434483720",
+          "sch_dep_dt": "1434483720"
+        }, {
+          "trip_id": "26726132",
+          "trip_name": "3:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434484920",
+          "sch_dep_dt": "1434484920"
+        }, {
+          "trip_id": "26726186",
+          "trip_name": "4:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434486120",
+          "sch_dep_dt": "1434486120"
+        }, {
+          "trip_id": "26726117",
+          "trip_name": "4:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434487320",
+          "sch_dep_dt": "1434487320"
+        }, {
+          "trip_id": "26726176",
+          "trip_name": "4:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434488520",
+          "sch_dep_dt": "1434488520"
+        }, {
+          "trip_id": "26726143",
+          "trip_name": "5:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434489720",
+          "sch_dep_dt": "1434489720"
+        }, {
+          "trip_id": "26726189",
+          "trip_name": "5:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434490980",
+          "sch_dep_dt": "1434490980"
+        }, {
+          "trip_id": "26726112",
+          "trip_name": "5:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434492180",
+          "sch_dep_dt": "1434492180"
+        }, {
+          "trip_id": "26726175",
+          "trip_name": "6:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434493380",
+          "sch_dep_dt": "1434493380"
+        }, {
+          "trip_id": "26726127",
+          "trip_name": "6:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434494580",
+          "sch_dep_dt": "1434494580"
+        }, {
+          "trip_id": "26726116",
+          "trip_name": "6:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434495780",
+          "sch_dep_dt": "1434495780"
+        }, {
+          "trip_id": "26726139",
+          "trip_name": "7:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434496980",
+          "sch_dep_dt": "1434496980"
+        }, {
+          "trip_id": "26726790",
+          "trip_name": "7:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434498000",
+          "sch_dep_dt": "1434498000"
+        }, {
+          "trip_id": "26726119",
+          "trip_name": "7:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434499200",
+          "sch_dep_dt": "1434499200"
+        }, {
+          "trip_id": "26726307",
+          "trip_name": "8:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434500400",
+          "sch_dep_dt": "1434500400"
+        }, {
+          "trip_id": "26726147",
+          "trip_name": "8:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434501900",
+          "sch_dep_dt": "1434501900"
+        }, {
+          "trip_id": "26726205",
+          "trip_name": "9:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434503700",
+          "sch_dep_dt": "1434503700"
+        }, {
+          "trip_id": "26726089",
+          "trip_name": "9:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434505380",
+          "sch_dep_dt": "1434505380"
+        }, {
+          "trip_id": "26726133",
+          "trip_name": "10:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434507180",
+          "sch_dep_dt": "1434507180"
+        }, {
+          "trip_id": "26726208",
+          "trip_name": "10:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434508980",
+          "sch_dep_dt": "1434508980"
+        }, {
+          "trip_id": "26726094",
+          "trip_name": "11:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434510780",
+          "sch_dep_dt": "1434510780"
+        }, {
+          "trip_id": "26726794",
+          "trip_name": "11:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434512580",
+          "sch_dep_dt": "1434512580"
+        }, {
+          "trip_id": "26726140",
+          "trip_name": "12:05 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434514320",
+          "sch_dep_dt": "1434514320"
+        }, {
+          "trip_id": "26726209",
+          "trip_name": "12:35 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434516120",
+          "sch_dep_dt": "1434516120"
+        }]
+      }]
+    }, {
+      "route_id": "90",
+      "route_name": "90",
+      "direction": [{
+        "direction_id": "1",
+        "direction_name": "Inbound",
+        "trip": [{
+          "trip_id": "26602729",
+          "trip_name": "6:30 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434450960",
+          "sch_dep_dt": "1434450960"
+        }, {
+          "trip_id": "26602734",
+          "trip_name": "7:10 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434453360",
+          "sch_dep_dt": "1434453360"
+        }, {
+          "trip_id": "26602716",
+          "trip_name": "7:50 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434455760",
+          "sch_dep_dt": "1434455760"
+        }, {
+          "trip_id": "26602725",
+          "trip_name": "8:30 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434458160",
+          "sch_dep_dt": "1434458160"
+        }, {
+          "trip_id": "26602737",
+          "trip_name": "9:15 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434460800",
+          "sch_dep_dt": "1434460800"
+        }, {
+          "trip_id": "26602738",
+          "trip_name": "10:25 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434465000",
+          "sch_dep_dt": "1434465000"
+        }, {
+          "trip_id": "26602722",
+          "trip_name": "11:35 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434469320",
+          "sch_dep_dt": "1434469320"
+        }, {
+          "trip_id": "26602724",
+          "trip_name": "12:45 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434473520",
+          "sch_dep_dt": "1434473520"
+        }, {
+          "trip_id": "26602732",
+          "trip_name": "1:25 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434475920",
+          "sch_dep_dt": "1434475920"
+        }, {
+          "trip_id": "26602711",
+          "trip_name": "2:05 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434478320",
+          "sch_dep_dt": "1434478320"
+        }, {
+          "trip_id": "26602710",
+          "trip_name": "3:00 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434481560",
+          "sch_dep_dt": "1434481560"
+        }, {
+          "trip_id": "26602742",
+          "trip_name": "3:45 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434484260",
+          "sch_dep_dt": "1434484260"
+        }, {
+          "trip_id": "26602735",
+          "trip_name": "4:35 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434487260",
+          "sch_dep_dt": "1434487260"
+        }, {
+          "trip_id": "26602721",
+          "trip_name": "5:15 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434489660",
+          "sch_dep_dt": "1434489660"
+        }, {
+          "trip_id": "26602718",
+          "trip_name": "6:10 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434492960",
+          "sch_dep_dt": "1434492960"
+        }, {
+          "trip_id": "26602709",
+          "trip_name": "6:50 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434495360",
+          "sch_dep_dt": "1434495360"
+        }, {
+          "trip_id": "26602740",
+          "trip_name": "7:30 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434497700",
+          "sch_dep_dt": "1434497700"
+        }, {
+          "trip_id": "26602714",
+          "trip_name": "8:35 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434501600",
+          "sch_dep_dt": "1434501600"
+        }, {
+          "trip_id": "26602726",
+          "trip_name": "9:40 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434505500",
+          "sch_dep_dt": "1434505500"
+        }]
+      }]
+    }]
+  }]
+}, {
+  "stop_id": "2681",
+  "stop_name": "Highland Ave @ Benton Rd",
+  "mode": [{
+    "route_type": "3",
+    "mode_name": "Bus",
+    "route": [{
+      "route_id": "88",
+      "route_name": "88",
+      "direction": [{
+        "direction_id": "1",
+        "direction_name": "Inbound",
+        "trip": [{
+          "trip_id": "26726101",
+          "trip_name": "5:16 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434532980",
+          "sch_dep_dt": "1434532980"
+        }, {
+          "trip_id": "26726126",
+          "trip_name": "5:41 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434534480",
+          "sch_dep_dt": "1434534480"
+        }, {
+          "trip_id": "26726106",
+          "trip_name": "6:06 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434535980",
+          "sch_dep_dt": "1434535980"
+        }, {
+          "trip_id": "26726179",
+          "trip_name": "6:28 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434537540",
+          "sch_dep_dt": "1434537540"
+        }, {
+          "trip_id": "26726107",
+          "trip_name": "6:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434538920",
+          "sch_dep_dt": "1434538920"
+        }, {
+          "trip_id": "26726124",
+          "trip_name": "7:06 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434539880",
+          "sch_dep_dt": "1434539880"
+        }, {
+          "trip_id": "26726166",
+          "trip_name": "7:22 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434540900",
+          "sch_dep_dt": "1434540900"
+        }, {
+          "trip_id": "26726104",
+          "trip_name": "7:38 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434541980",
+          "sch_dep_dt": "1434541980"
+        }, {
+          "trip_id": "26726055",
+          "trip_name": "7:54 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434542940",
+          "sch_dep_dt": "1434542940"
+        }, {
+          "trip_id": "26726121",
+          "trip_name": "8:10 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434543900",
+          "sch_dep_dt": "1434543900"
+        }, {
+          "trip_id": "26726103",
+          "trip_name": "8:28 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434544980",
+          "sch_dep_dt": "1434544980"
+        }, {
+          "trip_id": "26726056",
+          "trip_name": "8:46 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434546060",
+          "sch_dep_dt": "1434546060"
+        }, {
+          "trip_id": "26726122",
+          "trip_name": "9:03 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434546900",
+          "sch_dep_dt": "1434546900"
+        }, {
+          "trip_id": "26726173",
+          "trip_name": "9:25 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434548220",
+          "sch_dep_dt": "1434548220"
+        }, {
+          "trip_id": "26726071",
+          "trip_name": "9:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434549720",
+          "sch_dep_dt": "1434549720"
+        }, {
+          "trip_id": "26726306",
+          "trip_name": "10:15 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434551220",
+          "sch_dep_dt": "1434551220"
+        }, {
+          "trip_id": "26726024",
+          "trip_name": "10:40 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434552720",
+          "sch_dep_dt": "1434552720"
+        }, {
+          "trip_id": "26726131",
+          "trip_name": "11:05 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434554220",
+          "sch_dep_dt": "1434554220"
+        }, {
+          "trip_id": "26726196",
+          "trip_name": "11:30 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434555720",
+          "sch_dep_dt": "1434555720"
+        }, {
+          "trip_id": "26726799",
+          "trip_name": "11:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434556920",
+          "sch_dep_dt": "1434556920"
+        }, {
+          "trip_id": "26726167",
+          "trip_name": "12:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434558120",
+          "sch_dep_dt": "1434558120"
+        }, {
+          "trip_id": "26726798",
+          "trip_name": "12:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434559320",
+          "sch_dep_dt": "1434559320"
+        }, {
+          "trip_id": "26726059",
+          "trip_name": "12:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434560520",
+          "sch_dep_dt": "1434560520"
+        }, {
+          "trip_id": "26726034",
+          "trip_name": "1:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434561720",
+          "sch_dep_dt": "1434561720"
+        }, {
+          "trip_id": "26726151",
+          "trip_name": "1:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434562920",
+          "sch_dep_dt": "1434562920"
+        }, {
+          "trip_id": "26726795",
+          "trip_name": "1:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434564120",
+          "sch_dep_dt": "1434564120"
+        }, {
+          "trip_id": "26726305",
+          "trip_name": "2:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434565320",
+          "sch_dep_dt": "1434565320"
+        }, {
+          "trip_id": "26726162",
+          "trip_name": "2:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434566520",
+          "sch_dep_dt": "1434566520"
+        }, {
+          "trip_id": "26726154",
+          "trip_name": "2:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434567720",
+          "sch_dep_dt": "1434567720"
+        }, {
+          "trip_id": "26726188",
+          "trip_name": "3:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434568920",
+          "sch_dep_dt": "1434568920"
+        }, {
+          "trip_id": "26726110",
+          "trip_name": "3:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434570120",
+          "sch_dep_dt": "1434570120"
+        }, {
+          "trip_id": "26726132",
+          "trip_name": "3:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434571320",
+          "sch_dep_dt": "1434571320"
+        }, {
+          "trip_id": "26726186",
+          "trip_name": "4:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434572520",
+          "sch_dep_dt": "1434572520"
+        }, {
+          "trip_id": "26726117",
+          "trip_name": "4:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434573720",
+          "sch_dep_dt": "1434573720"
+        }, {
+          "trip_id": "26726176",
+          "trip_name": "4:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434574920",
+          "sch_dep_dt": "1434574920"
+        }, {
+          "trip_id": "26726143",
+          "trip_name": "5:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434576120",
+          "sch_dep_dt": "1434576120"
+        }, {
+          "trip_id": "26726189",
+          "trip_name": "5:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434577380",
+          "sch_dep_dt": "1434577380"
+        }, {
+          "trip_id": "26726112",
+          "trip_name": "5:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434578580",
+          "sch_dep_dt": "1434578580"
+        }, {
+          "trip_id": "26726175",
+          "trip_name": "6:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434579780",
+          "sch_dep_dt": "1434579780"
+        }, {
+          "trip_id": "26726127",
+          "trip_name": "6:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434580980",
+          "sch_dep_dt": "1434580980"
+        }, {
+          "trip_id": "26726116",
+          "trip_name": "6:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434582180",
+          "sch_dep_dt": "1434582180"
+        }, {
+          "trip_id": "26726139",
+          "trip_name": "7:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434583380",
+          "sch_dep_dt": "1434583380"
+        }, {
+          "trip_id": "26726790",
+          "trip_name": "7:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434584400",
+          "sch_dep_dt": "1434584400"
+        }, {
+          "trip_id": "26726119",
+          "trip_name": "7:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434585600",
+          "sch_dep_dt": "1434585600"
+        }, {
+          "trip_id": "26726307",
+          "trip_name": "8:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434586800",
+          "sch_dep_dt": "1434586800"
+        }, {
+          "trip_id": "26726147",
+          "trip_name": "8:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434588300",
+          "sch_dep_dt": "1434588300"
+        }, {
+          "trip_id": "26726205",
+          "trip_name": "9:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434590100",
+          "sch_dep_dt": "1434590100"
+        }, {
+          "trip_id": "26726089",
+          "trip_name": "9:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434591780",
+          "sch_dep_dt": "1434591780"
+        }, {
+          "trip_id": "26726133",
+          "trip_name": "10:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434593580",
+          "sch_dep_dt": "1434593580"
+        }, {
+          "trip_id": "26726208",
+          "trip_name": "10:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434595380",
+          "sch_dep_dt": "1434595380"
+        }, {
+          "trip_id": "26726094",
+          "trip_name": "11:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434597180",
+          "sch_dep_dt": "1434597180"
+        }, {
+          "trip_id": "26726794",
+          "trip_name": "11:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434598980",
+          "sch_dep_dt": "1434598980"
+        }, {
+          "trip_id": "26726140",
+          "trip_name": "12:05 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434600720",
+          "sch_dep_dt": "1434600720"
+        }, {
+          "trip_id": "26726209",
+          "trip_name": "12:35 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434602520",
+          "sch_dep_dt": "1434602520"
+        }]
+      }]
+    }, {
+      "route_id": "90",
+      "route_name": "90",
+      "direction": [{
+        "direction_id": "1",
+        "direction_name": "Inbound",
+        "trip": [{
+          "trip_id": "26602729",
+          "trip_name": "6:30 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434537360",
+          "sch_dep_dt": "1434537360"
+        }, {
+          "trip_id": "26602734",
+          "trip_name": "7:10 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434539760",
+          "sch_dep_dt": "1434539760"
+        }, {
+          "trip_id": "26602716",
+          "trip_name": "7:50 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434542160",
+          "sch_dep_dt": "1434542160"
+        }, {
+          "trip_id": "26602725",
+          "trip_name": "8:30 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434544560",
+          "sch_dep_dt": "1434544560"
+        }, {
+          "trip_id": "26602737",
+          "trip_name": "9:15 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434547200",
+          "sch_dep_dt": "1434547200"
+        }, {
+          "trip_id": "26602738",
+          "trip_name": "10:25 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434551400",
+          "sch_dep_dt": "1434551400"
+        }, {
+          "trip_id": "26602722",
+          "trip_name": "11:35 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434555720",
+          "sch_dep_dt": "1434555720"
+        }, {
+          "trip_id": "26602724",
+          "trip_name": "12:45 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434559920",
+          "sch_dep_dt": "1434559920"
+        }, {
+          "trip_id": "26602732",
+          "trip_name": "1:25 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434562320",
+          "sch_dep_dt": "1434562320"
+        }, {
+          "trip_id": "26602711",
+          "trip_name": "2:05 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434564720",
+          "sch_dep_dt": "1434564720"
+        }, {
+          "trip_id": "26602710",
+          "trip_name": "3:00 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434567960",
+          "sch_dep_dt": "1434567960"
+        }, {
+          "trip_id": "26602742",
+          "trip_name": "3:45 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434570660",
+          "sch_dep_dt": "1434570660"
+        }, {
+          "trip_id": "26602735",
+          "trip_name": "4:35 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434573660",
+          "sch_dep_dt": "1434573660"
+        }, {
+          "trip_id": "26602721",
+          "trip_name": "5:15 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434576060",
+          "sch_dep_dt": "1434576060"
+        }, {
+          "trip_id": "26602718",
+          "trip_name": "6:10 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434579360",
+          "sch_dep_dt": "1434579360"
+        }, {
+          "trip_id": "26602709",
+          "trip_name": "6:50 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434581760",
+          "sch_dep_dt": "1434581760"
+        }, {
+          "trip_id": "26602740",
+          "trip_name": "7:30 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434584100",
+          "sch_dep_dt": "1434584100"
+        }, {
+          "trip_id": "26602714",
+          "trip_name": "8:35 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434588000",
+          "sch_dep_dt": "1434588000"
+        }, {
+          "trip_id": "26602726",
+          "trip_name": "9:40 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434591900",
+          "sch_dep_dt": "1434591900"
+        }]
+      }]
+    }]
+  }]
+}, {
+  "stop_id": "2681",
+  "stop_name": "Highland Ave @ Benton Rd",
+  "mode": [{
+    "route_type": "3",
+    "mode_name": "Bus",
+    "route": [{
+      "route_id": "88",
+      "route_name": "88",
+      "direction": [{
+        "direction_id": "1",
+        "direction_name": "Inbound",
+        "trip": [{
+          "trip_id": "26726101",
+          "trip_name": "5:16 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434619380",
+          "sch_dep_dt": "1434619380"
+        }, {
+          "trip_id": "26726126",
+          "trip_name": "5:41 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434620880",
+          "sch_dep_dt": "1434620880"
+        }, {
+          "trip_id": "26726106",
+          "trip_name": "6:06 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434622380",
+          "sch_dep_dt": "1434622380"
+        }, {
+          "trip_id": "26726179",
+          "trip_name": "6:28 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434623940",
+          "sch_dep_dt": "1434623940"
+        }, {
+          "trip_id": "26726107",
+          "trip_name": "6:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434625320",
+          "sch_dep_dt": "1434625320"
+        }, {
+          "trip_id": "26726124",
+          "trip_name": "7:06 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434626280",
+          "sch_dep_dt": "1434626280"
+        }, {
+          "trip_id": "26726166",
+          "trip_name": "7:22 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434627300",
+          "sch_dep_dt": "1434627300"
+        }, {
+          "trip_id": "26726104",
+          "trip_name": "7:38 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434628380",
+          "sch_dep_dt": "1434628380"
+        }, {
+          "trip_id": "26726055",
+          "trip_name": "7:54 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434629340",
+          "sch_dep_dt": "1434629340"
+        }, {
+          "trip_id": "26726121",
+          "trip_name": "8:10 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434630300",
+          "sch_dep_dt": "1434630300"
+        }, {
+          "trip_id": "26726103",
+          "trip_name": "8:28 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434631380",
+          "sch_dep_dt": "1434631380"
+        }, {
+          "trip_id": "26726056",
+          "trip_name": "8:46 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434632460",
+          "sch_dep_dt": "1434632460"
+        }, {
+          "trip_id": "26726122",
+          "trip_name": "9:03 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434633300",
+          "sch_dep_dt": "1434633300"
+        }, {
+          "trip_id": "26726173",
+          "trip_name": "9:25 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434634620",
+          "sch_dep_dt": "1434634620"
+        }, {
+          "trip_id": "26726071",
+          "trip_name": "9:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434636120",
+          "sch_dep_dt": "1434636120"
+        }, {
+          "trip_id": "26726306",
+          "trip_name": "10:15 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434637620",
+          "sch_dep_dt": "1434637620"
+        }, {
+          "trip_id": "26726024",
+          "trip_name": "10:40 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434639120",
+          "sch_dep_dt": "1434639120"
+        }, {
+          "trip_id": "26726131",
+          "trip_name": "11:05 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434640620",
+          "sch_dep_dt": "1434640620"
+        }, {
+          "trip_id": "26726196",
+          "trip_name": "11:30 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434642120",
+          "sch_dep_dt": "1434642120"
+        }, {
+          "trip_id": "26726799",
+          "trip_name": "11:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434643320",
+          "sch_dep_dt": "1434643320"
+        }, {
+          "trip_id": "26726167",
+          "trip_name": "12:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434644520",
+          "sch_dep_dt": "1434644520"
+        }, {
+          "trip_id": "26726798",
+          "trip_name": "12:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434645720",
+          "sch_dep_dt": "1434645720"
+        }, {
+          "trip_id": "26726059",
+          "trip_name": "12:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434646920",
+          "sch_dep_dt": "1434646920"
+        }, {
+          "trip_id": "26726034",
+          "trip_name": "1:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434648120",
+          "sch_dep_dt": "1434648120"
+        }, {
+          "trip_id": "26726151",
+          "trip_name": "1:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434649320",
+          "sch_dep_dt": "1434649320"
+        }, {
+          "trip_id": "26726795",
+          "trip_name": "1:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434650520",
+          "sch_dep_dt": "1434650520"
+        }, {
+          "trip_id": "26726305",
+          "trip_name": "2:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434651720",
+          "sch_dep_dt": "1434651720"
+        }, {
+          "trip_id": "26726162",
+          "trip_name": "2:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434652920",
+          "sch_dep_dt": "1434652920"
+        }, {
+          "trip_id": "26726154",
+          "trip_name": "2:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434654120",
+          "sch_dep_dt": "1434654120"
+        }, {
+          "trip_id": "26726188",
+          "trip_name": "3:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434655320",
+          "sch_dep_dt": "1434655320"
+        }, {
+          "trip_id": "26726110",
+          "trip_name": "3:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434656520",
+          "sch_dep_dt": "1434656520"
+        }, {
+          "trip_id": "26726132",
+          "trip_name": "3:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434657720",
+          "sch_dep_dt": "1434657720"
+        }, {
+          "trip_id": "26726186",
+          "trip_name": "4:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434658920",
+          "sch_dep_dt": "1434658920"
+        }, {
+          "trip_id": "26726117",
+          "trip_name": "4:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434660120",
+          "sch_dep_dt": "1434660120"
+        }, {
+          "trip_id": "26726176",
+          "trip_name": "4:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434661320",
+          "sch_dep_dt": "1434661320"
+        }, {
+          "trip_id": "26726143",
+          "trip_name": "5:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434662520",
+          "sch_dep_dt": "1434662520"
+        }, {
+          "trip_id": "26726189",
+          "trip_name": "5:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434663780",
+          "sch_dep_dt": "1434663780"
+        }, {
+          "trip_id": "26726112",
+          "trip_name": "5:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434664980",
+          "sch_dep_dt": "1434664980"
+        }, {
+          "trip_id": "26726175",
+          "trip_name": "6:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434666180",
+          "sch_dep_dt": "1434666180"
+        }, {
+          "trip_id": "26726127",
+          "trip_name": "6:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434667380",
+          "sch_dep_dt": "1434667380"
+        }, {
+          "trip_id": "26726116",
+          "trip_name": "6:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434668580",
+          "sch_dep_dt": "1434668580"
+        }, {
+          "trip_id": "26726139",
+          "trip_name": "7:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434669780",
+          "sch_dep_dt": "1434669780"
+        }, {
+          "trip_id": "26726790",
+          "trip_name": "7:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434670800",
+          "sch_dep_dt": "1434670800"
+        }, {
+          "trip_id": "26726119",
+          "trip_name": "7:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434672000",
+          "sch_dep_dt": "1434672000"
+        }, {
+          "trip_id": "26726307",
+          "trip_name": "8:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434673200",
+          "sch_dep_dt": "1434673200"
+        }, {
+          "trip_id": "26726147",
+          "trip_name": "8:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434674700",
+          "sch_dep_dt": "1434674700"
+        }, {
+          "trip_id": "26726205",
+          "trip_name": "9:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434676500",
+          "sch_dep_dt": "1434676500"
+        }, {
+          "trip_id": "26726089",
+          "trip_name": "9:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434678180",
+          "sch_dep_dt": "1434678180"
+        }, {
+          "trip_id": "26726133",
+          "trip_name": "10:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434679980",
+          "sch_dep_dt": "1434679980"
+        }, {
+          "trip_id": "26726208",
+          "trip_name": "10:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434681780",
+          "sch_dep_dt": "1434681780"
+        }, {
+          "trip_id": "26726094",
+          "trip_name": "11:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434683580",
+          "sch_dep_dt": "1434683580"
+        }, {
+          "trip_id": "26726794",
+          "trip_name": "11:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434685380",
+          "sch_dep_dt": "1434685380"
+        }, {
+          "trip_id": "26726140",
+          "trip_name": "12:05 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434687120",
+          "sch_dep_dt": "1434687120"
+        }, {
+          "trip_id": "26726209",
+          "trip_name": "12:35 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434688920",
+          "sch_dep_dt": "1434688920"
+        }]
+      }]
+    }, {
+      "route_id": "90",
+      "route_name": "90",
+      "direction": [{
+        "direction_id": "1",
+        "direction_name": "Inbound",
+        "trip": [{
+          "trip_id": "26602729",
+          "trip_name": "6:30 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434623760",
+          "sch_dep_dt": "1434623760"
+        }, {
+          "trip_id": "26602734",
+          "trip_name": "7:10 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434626160",
+          "sch_dep_dt": "1434626160"
+        }, {
+          "trip_id": "26602716",
+          "trip_name": "7:50 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434628560",
+          "sch_dep_dt": "1434628560"
+        }, {
+          "trip_id": "26602725",
+          "trip_name": "8:30 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434630960",
+          "sch_dep_dt": "1434630960"
+        }, {
+          "trip_id": "26602737",
+          "trip_name": "9:15 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434633600",
+          "sch_dep_dt": "1434633600"
+        }, {
+          "trip_id": "26602738",
+          "trip_name": "10:25 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434637800",
+          "sch_dep_dt": "1434637800"
+        }, {
+          "trip_id": "26602722",
+          "trip_name": "11:35 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434642120",
+          "sch_dep_dt": "1434642120"
+        }, {
+          "trip_id": "26602724",
+          "trip_name": "12:45 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434646320",
+          "sch_dep_dt": "1434646320"
+        }, {
+          "trip_id": "26602732",
+          "trip_name": "1:25 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434648720",
+          "sch_dep_dt": "1434648720"
+        }, {
+          "trip_id": "26602711",
+          "trip_name": "2:05 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434651120",
+          "sch_dep_dt": "1434651120"
+        }, {
+          "trip_id": "26602710",
+          "trip_name": "3:00 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434654360",
+          "sch_dep_dt": "1434654360"
+        }, {
+          "trip_id": "26602742",
+          "trip_name": "3:45 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434657060",
+          "sch_dep_dt": "1434657060"
+        }, {
+          "trip_id": "26602735",
+          "trip_name": "4:35 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434660060",
+          "sch_dep_dt": "1434660060"
+        }, {
+          "trip_id": "26602721",
+          "trip_name": "5:15 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434662460",
+          "sch_dep_dt": "1434662460"
+        }, {
+          "trip_id": "26602718",
+          "trip_name": "6:10 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434665760",
+          "sch_dep_dt": "1434665760"
+        }, {
+          "trip_id": "26602709",
+          "trip_name": "6:50 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434668160",
+          "sch_dep_dt": "1434668160"
+        }, {
+          "trip_id": "26602740",
+          "trip_name": "7:30 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434670500",
+          "sch_dep_dt": "1434670500"
+        }, {
+          "trip_id": "26602714",
+          "trip_name": "8:35 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434674400",
+          "sch_dep_dt": "1434674400"
+        }, {
+          "trip_id": "26602726",
+          "trip_name": "9:40 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434678300",
+          "sch_dep_dt": "1434678300"
+        }]
+      }]
+    }]
+  }]
+}, {
+  "stop_id": "2681",
+  "stop_name": "Highland Ave @ Benton Rd",
+  "mode": [{
+    "route_type": "3",
+    "mode_name": "Bus",
+    "route": [{
+      "route_id": "88",
+      "route_name": "88",
+      "direction": [{
+        "direction_id": "1",
+        "direction_name": "Inbound",
+        "trip": [{
+          "trip_id": "26671241",
+          "trip_name": "5:16 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434705780",
+          "sch_dep_dt": "1434705780"
+        }, {
+          "trip_id": "26671266",
+          "trip_name": "5:41 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434707280",
+          "sch_dep_dt": "1434707280"
+        }, {
+          "trip_id": "26671246",
+          "trip_name": "6:06 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434708780",
+          "sch_dep_dt": "1434708780"
+        }, {
+          "trip_id": "26671319",
+          "trip_name": "6:28 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434710340",
+          "sch_dep_dt": "1434710340"
+        }, {
+          "trip_id": "26671247",
+          "trip_name": "6:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434711720",
+          "sch_dep_dt": "1434711720"
+        }, {
+          "trip_id": "26671264",
+          "trip_name": "7:06 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434712680",
+          "sch_dep_dt": "1434712680"
+        }, {
+          "trip_id": "26671306",
+          "trip_name": "7:22 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434713700",
+          "sch_dep_dt": "1434713700"
+        }, {
+          "trip_id": "26671244",
+          "trip_name": "7:38 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434714780",
+          "sch_dep_dt": "1434714780"
+        }, {
+          "trip_id": "26671195",
+          "trip_name": "7:54 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434715740",
+          "sch_dep_dt": "1434715740"
+        }, {
+          "trip_id": "26671261",
+          "trip_name": "8:10 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434716700",
+          "sch_dep_dt": "1434716700"
+        }, {
+          "trip_id": "26671243",
+          "trip_name": "8:28 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434717780",
+          "sch_dep_dt": "1434717780"
+        }, {
+          "trip_id": "26671196",
+          "trip_name": "8:46 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434718860",
+          "sch_dep_dt": "1434718860"
+        }, {
+          "trip_id": "26671262",
+          "trip_name": "9:03 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434719700",
+          "sch_dep_dt": "1434719700"
+        }, {
+          "trip_id": "26671313",
+          "trip_name": "9:25 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434721020",
+          "sch_dep_dt": "1434721020"
+        }, {
+          "trip_id": "26671211",
+          "trip_name": "9:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434722520",
+          "sch_dep_dt": "1434722520"
+        }, {
+          "trip_id": "26671445",
+          "trip_name": "10:15 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434724020",
+          "sch_dep_dt": "1434724020"
+        }, {
+          "trip_id": "26671164",
+          "trip_name": "10:40 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434725520",
+          "sch_dep_dt": "1434725520"
+        }, {
+          "trip_id": "26671271",
+          "trip_name": "11:05 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434727020",
+          "sch_dep_dt": "1434727020"
+        }, {
+          "trip_id": "26671336",
+          "trip_name": "11:30 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434728520",
+          "sch_dep_dt": "1434728520"
+        }, {
+          "trip_id": "26671934",
+          "trip_name": "11:50 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434729720",
+          "sch_dep_dt": "1434729720"
+        }, {
+          "trip_id": "26671307",
+          "trip_name": "12:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434730920",
+          "sch_dep_dt": "1434730920"
+        }, {
+          "trip_id": "26671933",
+          "trip_name": "12:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434732120",
+          "sch_dep_dt": "1434732120"
+        }, {
+          "trip_id": "26671199",
+          "trip_name": "12:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434733320",
+          "sch_dep_dt": "1434733320"
+        }, {
+          "trip_id": "26671174",
+          "trip_name": "1:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434734520",
+          "sch_dep_dt": "1434734520"
+        }, {
+          "trip_id": "26671291",
+          "trip_name": "1:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434735720",
+          "sch_dep_dt": "1434735720"
+        }, {
+          "trip_id": "26671930",
+          "trip_name": "1:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434736920",
+          "sch_dep_dt": "1434736920"
+        }, {
+          "trip_id": "26671444",
+          "trip_name": "2:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434738120",
+          "sch_dep_dt": "1434738120"
+        }, {
+          "trip_id": "26671302",
+          "trip_name": "2:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434739320",
+          "sch_dep_dt": "1434739320"
+        }, {
+          "trip_id": "26671294",
+          "trip_name": "2:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434740520",
+          "sch_dep_dt": "1434740520"
+        }, {
+          "trip_id": "26671328",
+          "trip_name": "3:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434741720",
+          "sch_dep_dt": "1434741720"
+        }, {
+          "trip_id": "26671250",
+          "trip_name": "3:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434742920",
+          "sch_dep_dt": "1434742920"
+        }, {
+          "trip_id": "26671272",
+          "trip_name": "3:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434744120",
+          "sch_dep_dt": "1434744120"
+        }, {
+          "trip_id": "26671326",
+          "trip_name": "4:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434745320",
+          "sch_dep_dt": "1434745320"
+        }, {
+          "trip_id": "26671257",
+          "trip_name": "4:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434746520",
+          "sch_dep_dt": "1434746520"
+        }, {
+          "trip_id": "26671316",
+          "trip_name": "4:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434747720",
+          "sch_dep_dt": "1434747720"
+        }, {
+          "trip_id": "26671283",
+          "trip_name": "5:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434748920",
+          "sch_dep_dt": "1434748920"
+        }, {
+          "trip_id": "26671329",
+          "trip_name": "5:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434750180",
+          "sch_dep_dt": "1434750180"
+        }, {
+          "trip_id": "26671252",
+          "trip_name": "5:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434751380",
+          "sch_dep_dt": "1434751380"
+        }, {
+          "trip_id": "26671315",
+          "trip_name": "6:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434752580",
+          "sch_dep_dt": "1434752580"
+        }, {
+          "trip_id": "26671267",
+          "trip_name": "6:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434753780",
+          "sch_dep_dt": "1434753780"
+        }, {
+          "trip_id": "26671256",
+          "trip_name": "6:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434754980",
+          "sch_dep_dt": "1434754980"
+        }, {
+          "trip_id": "26671279",
+          "trip_name": "7:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434756180",
+          "sch_dep_dt": "1434756180"
+        }, {
+          "trip_id": "26671925",
+          "trip_name": "7:30 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434757200",
+          "sch_dep_dt": "1434757200"
+        }, {
+          "trip_id": "26671259",
+          "trip_name": "7:50 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434758400",
+          "sch_dep_dt": "1434758400"
+        }, {
+          "trip_id": "26671446",
+          "trip_name": "8:10 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434759600",
+          "sch_dep_dt": "1434759600"
+        }, {
+          "trip_id": "26671287",
+          "trip_name": "8:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434761100",
+          "sch_dep_dt": "1434761100"
+        }, {
+          "trip_id": "26671345",
+          "trip_name": "9:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434762900",
+          "sch_dep_dt": "1434762900"
+        }, {
+          "trip_id": "26671229",
+          "trip_name": "9:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434764580",
+          "sch_dep_dt": "1434764580"
+        }, {
+          "trip_id": "26671273",
+          "trip_name": "10:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434766380",
+          "sch_dep_dt": "1434766380"
+        }, {
+          "trip_id": "26671348",
+          "trip_name": "10:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434768180",
+          "sch_dep_dt": "1434768180"
+        }, {
+          "trip_id": "26671234",
+          "trip_name": "11:05 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434769980",
+          "sch_dep_dt": "1434769980"
+        }, {
+          "trip_id": "26671929",
+          "trip_name": "11:35 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434771780",
+          "sch_dep_dt": "1434771780"
+        }, {
+          "trip_id": "26671280",
+          "trip_name": "12:05 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434773520",
+          "sch_dep_dt": "1434773520"
+        }, {
+          "trip_id": "26671349",
+          "trip_name": "12:35 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434775320",
+          "sch_dep_dt": "1434775320"
+        }]
+      }]
+    }, {
+      "route_id": "90",
+      "route_name": "90",
+      "direction": [{
+        "direction_id": "1",
+        "direction_name": "Inbound",
+        "trip": [{
+          "trip_id": "26576701",
+          "trip_name": "6:30 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434710160",
+          "sch_dep_dt": "1434710160"
+        }, {
+          "trip_id": "26576706",
+          "trip_name": "7:10 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434712560",
+          "sch_dep_dt": "1434712560"
+        }, {
+          "trip_id": "26576688",
+          "trip_name": "7:50 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434714960",
+          "sch_dep_dt": "1434714960"
+        }, {
+          "trip_id": "26576697",
+          "trip_name": "8:30 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434717360",
+          "sch_dep_dt": "1434717360"
+        }, {
+          "trip_id": "26576709",
+          "trip_name": "9:15 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434720000",
+          "sch_dep_dt": "1434720000"
+        }, {
+          "trip_id": "26576710",
+          "trip_name": "10:25 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434724200",
+          "sch_dep_dt": "1434724200"
+        }, {
+          "trip_id": "26576694",
+          "trip_name": "11:35 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434728520",
+          "sch_dep_dt": "1434728520"
+        }, {
+          "trip_id": "26576696",
+          "trip_name": "12:45 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434732720",
+          "sch_dep_dt": "1434732720"
+        }, {
+          "trip_id": "26576704",
+          "trip_name": "1:25 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434735120",
+          "sch_dep_dt": "1434735120"
+        }, {
+          "trip_id": "26576683",
+          "trip_name": "2:05 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434737520",
+          "sch_dep_dt": "1434737520"
+        }, {
+          "trip_id": "26576682",
+          "trip_name": "3:00 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434740760",
+          "sch_dep_dt": "1434740760"
+        }, {
+          "trip_id": "26576714",
+          "trip_name": "3:45 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434743460",
+          "sch_dep_dt": "1434743460"
+        }, {
+          "trip_id": "26576707",
+          "trip_name": "4:35 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434746460",
+          "sch_dep_dt": "1434746460"
+        }, {
+          "trip_id": "26576693",
+          "trip_name": "5:15 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434748860",
+          "sch_dep_dt": "1434748860"
+        }, {
+          "trip_id": "26576690",
+          "trip_name": "6:10 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434752160",
+          "sch_dep_dt": "1434752160"
+        }, {
+          "trip_id": "26576681",
+          "trip_name": "6:50 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434754560",
+          "sch_dep_dt": "1434754560"
+        }, {
+          "trip_id": "26576712",
+          "trip_name": "7:30 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434756900",
+          "sch_dep_dt": "1434756900"
+        }, {
+          "trip_id": "26576686",
+          "trip_name": "8:35 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434760800",
+          "sch_dep_dt": "1434760800"
+        }, {
+          "trip_id": "26576698",
+          "trip_name": "9:40 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434764700",
+          "sch_dep_dt": "1434764700"
+        }]
+      }]
+    }]
+  }]
+}, {
+  "stop_id": "2681",
+  "stop_name": "Highland Ave @ Benton Rd",
+  "mode": [{
+    "route_type": "3",
+    "mode_name": "Bus",
+    "route": [{
+      "route_id": "88",
+      "route_name": "88",
+      "direction": [{
+        "direction_id": "1",
+        "direction_name": "Inbound",
+        "trip": [{
+          "trip_id": "26660119",
+          "trip_name": "5:30 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434188160",
+          "sch_dep_dt": "1434188160"
+        }, {
+          "trip_id": "26660045",
+          "trip_name": "6:00 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434189960",
+          "sch_dep_dt": "1434189960"
+        }, {
+          "trip_id": "26660118",
+          "trip_name": "6:30 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434191760",
+          "sch_dep_dt": "1434191760"
+        }, {
+          "trip_id": "26660112",
+          "trip_name": "7:00 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434193560",
+          "sch_dep_dt": "1434193560"
+        }, {
+          "trip_id": "26660038",
+          "trip_name": "7:30 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434195360",
+          "sch_dep_dt": "1434195360"
+        }, {
+          "trip_id": "26660015",
+          "trip_name": "8:00 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434197160",
+          "sch_dep_dt": "1434197160"
+        }, {
+          "trip_id": "26660113",
+          "trip_name": "8:30 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434199080",
+          "sch_dep_dt": "1434199080"
+        }, {
+          "trip_id": "26660097",
+          "trip_name": "9:00 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434200880",
+          "sch_dep_dt": "1434200880"
+        }, {
+          "trip_id": "26660050",
+          "trip_name": "9:30 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434202740",
+          "sch_dep_dt": "1434202740"
+        }, {
+          "trip_id": "26660073",
+          "trip_name": "10:00 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434204540",
+          "sch_dep_dt": "1434204540"
+        }, {
+          "trip_id": "26660087",
+          "trip_name": "10:30 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434206340",
+          "sch_dep_dt": "1434206340"
+        }, {
+          "trip_id": "26660111",
+          "trip_name": "11:00 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434208140",
+          "sch_dep_dt": "1434208140"
+        }, {
+          "trip_id": "26660132",
+          "trip_name": "11:20 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434209400",
+          "sch_dep_dt": "1434209400"
+        }, {
+          "trip_id": "26660078",
+          "trip_name": "11:40 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434210720",
+          "sch_dep_dt": "1434210720"
+        }, {
+          "trip_id": "26660000",
+          "trip_name": "12:00 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434211920",
+          "sch_dep_dt": "1434211920"
+        }, {
+          "trip_id": "26660030",
+          "trip_name": "12:20 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434213120",
+          "sch_dep_dt": "1434213120"
+        }, {
+          "trip_id": "26660148",
+          "trip_name": "12:40 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434214320",
+          "sch_dep_dt": "1434214320"
+        }, {
+          "trip_id": "26660046",
+          "trip_name": "1:00 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434215520",
+          "sch_dep_dt": "1434215520"
+        }, {
+          "trip_id": "26660072",
+          "trip_name": "1:20 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434216720",
+          "sch_dep_dt": "1434216720"
+        }, {
+          "trip_id": "26660062",
+          "trip_name": "1:40 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434217920",
+          "sch_dep_dt": "1434217920"
+        }, {
+          "trip_id": "26660121",
+          "trip_name": "2:00 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434219120",
+          "sch_dep_dt": "1434219120"
+        }, {
+          "trip_id": "26660065",
+          "trip_name": "2:20 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434220260",
+          "sch_dep_dt": "1434220260"
+        }, {
+          "trip_id": "26660085",
+          "trip_name": "2:40 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434221400",
+          "sch_dep_dt": "1434221400"
+        }, {
+          "trip_id": "26660095",
+          "trip_name": "3:00 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434222600",
+          "sch_dep_dt": "1434222600"
+        }, {
+          "trip_id": "26660157",
+          "trip_name": "3:20 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434223800",
+          "sch_dep_dt": "1434223800"
+        }, {
+          "trip_id": "26660152",
+          "trip_name": "3:40 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434225000",
+          "sch_dep_dt": "1434225000"
+        }, {
+          "trip_id": "26660084",
+          "trip_name": "4:00 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434226200",
+          "sch_dep_dt": "1434226200"
+        }, {
+          "trip_id": "26660034",
+          "trip_name": "4:20 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434227400",
+          "sch_dep_dt": "1434227400"
+        }, {
+          "trip_id": "26660063",
+          "trip_name": "4:40 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434228600",
+          "sch_dep_dt": "1434228600"
+        }, {
+          "trip_id": "26660037",
+          "trip_name": "5:00 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434229800",
+          "sch_dep_dt": "1434229800"
+        }, {
+          "trip_id": "26660134",
+          "trip_name": "5:20 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434231000",
+          "sch_dep_dt": "1434231000"
+        }, {
+          "trip_id": "26660081",
+          "trip_name": "5:40 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434232200",
+          "sch_dep_dt": "1434232200"
+        }, {
+          "trip_id": "26660150",
+          "trip_name": "6:00 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434233400",
+          "sch_dep_dt": "1434233400"
+        }, {
+          "trip_id": "26660029",
+          "trip_name": "6:20 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434234600",
+          "sch_dep_dt": "1434234600"
+        }, {
+          "trip_id": "26660064",
+          "trip_name": "6:40 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434235800",
+          "sch_dep_dt": "1434235800"
+        }, {
+          "trip_id": "26660043",
+          "trip_name": "7:00 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434236940",
+          "sch_dep_dt": "1434236940"
+        }, {
+          "trip_id": "26660035",
+          "trip_name": "7:20 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434238140",
+          "sch_dep_dt": "1434238140"
+        }, {
+          "trip_id": "26660091",
+          "trip_name": "8:00 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434240540",
+          "sch_dep_dt": "1434240540"
+        }, {
+          "trip_id": "26660092",
+          "trip_name": "8:20 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434241740",
+          "sch_dep_dt": "1434241740"
+        }, {
+          "trip_id": "26660116",
+          "trip_name": "9:00 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434244140",
+          "sch_dep_dt": "1434244140"
+        }, {
+          "trip_id": "26659999",
+          "trip_name": "9:40 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434246540",
+          "sch_dep_dt": "1434246540"
+        }, {
+          "trip_id": "26660079",
+          "trip_name": "10:20 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434248940",
+          "sch_dep_dt": "1434248940"
+        }, {
+          "trip_id": "26660137",
+          "trip_name": "11:00 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434251340",
+          "sch_dep_dt": "1434251340"
+        }, {
+          "trip_id": "26660074",
+          "trip_name": "11:40 pm from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434253620",
+          "sch_dep_dt": "1434253620"
+        }, {
+          "trip_id": "26660047",
+          "trip_name": "12:20 am from Clarendon Hill Busway to Lechmere Station - Outbound Side",
+          "sch_arr_dt": "1434256020",
+          "sch_dep_dt": "1434256020"
+        }]
+      }]
+    }, {
+      "route_id": "90",
+      "route_name": "90",
+      "direction": [{
+        "direction_id": "1",
+        "direction_name": "Inbound",
+        "trip": [{
+          "trip_id": "26598723",
+          "trip_name": "7:30 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434195300",
+          "sch_dep_dt": "1434195300"
+        }, {
+          "trip_id": "26598711",
+          "trip_name": "8:40 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434199500",
+          "sch_dep_dt": "1434199500"
+        }, {
+          "trip_id": "26598712",
+          "trip_name": "9:45 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434203400",
+          "sch_dep_dt": "1434203400"
+        }, {
+          "trip_id": "26598713",
+          "trip_name": "10:55 am from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434207600",
+          "sch_dep_dt": "1434207600"
+        }, {
+          "trip_id": "26598714",
+          "trip_name": "12:05 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434211800",
+          "sch_dep_dt": "1434211800"
+        }, {
+          "trip_id": "26598715",
+          "trip_name": "1:15 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434216060",
+          "sch_dep_dt": "1434216060"
+        }, {
+          "trip_id": "26598716",
+          "trip_name": "2:25 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434220260",
+          "sch_dep_dt": "1434220260"
+        }, {
+          "trip_id": "26598717",
+          "trip_name": "3:35 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434224460",
+          "sch_dep_dt": "1434224460"
+        }, {
+          "trip_id": "26598718",
+          "trip_name": "4:45 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434228660",
+          "sch_dep_dt": "1434228660"
+        }, {
+          "trip_id": "26598719",
+          "trip_name": "5:55 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434232800",
+          "sch_dep_dt": "1434232800"
+        }, {
+          "trip_id": "26598720",
+          "trip_name": "7:05 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434237000",
+          "sch_dep_dt": "1434237000"
+        }, {
+          "trip_id": "26598721",
+          "trip_name": "8:15 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434241200",
+          "sch_dep_dt": "1434241200"
+        }, {
+          "trip_id": "26598722",
+          "trip_name": "9:25 pm from Davis Square Busway to Wellington Station Busway",
+          "sch_arr_dt": "1434245400",
+          "sch_dep_dt": "1434245400"
+        }]
+      }]
+    }]
+  }]
+}]
