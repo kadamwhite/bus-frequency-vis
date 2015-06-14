@@ -1,0 +1,13 @@
+{
+  "verbose": false,
+  "watch": [
+    "bin",
+    "lib",
+    "server",
+    "routes",
+    "views",
+    "app.js",
+    "config.yml"
+  ],
+  "ext": "js,html,yml"
+}
