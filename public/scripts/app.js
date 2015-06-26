@@ -1,35 +1,40 @@
 'use strict';
 
 var d3 = require( 'd3' );
-/* var _ =*/ window._ = require( 'lodash' );
 
 // ELEMENTS
 
-var spinnerNode = document.querySelectorAll( '.spinner' ).item( 0 );
 var containerNode = document.getElementById( 'container' );
-
-// Fade in the spinner
-spinnerNode.classList.add( 'fade-in' );
 
 // DATA STRUCTURE
 
 var StopCollection = require( './collections/stop-collection' );
-var parseData = require( './lib/parse-data' );
+// var VisOne = require( './views/visualizations/vis-one' );
+// var VisTwo = require( './views/visualizations/vis-two' );
+var SpinnerView = require( './views/spinner-view' );
+
+var stops = new StopCollection([]);
+
+// Create the visualization elements
+// var visOne = new VisOne({
+//   collection: stops
+// });
+// var visTwo = new VisTwo({
+//   collection: stops
+// });
+var spinnerVis = new SpinnerView({
+  collection: stops
+});
 
 // DATA RETRIEVAL
 function renderVis( data ) {
-  var stops = new StopCollection( parseData( data ) );
 
-  spinnerNode.classList.add( 'fade-out' );
+  console.log( data );
 
   // Timeout to fade out the spinner
   setTimeout(function renderAllVisualizations() {
-    // Fully remove the spinner
-    spinnerNode.remove();
-
-    // Create the visualization elements
-    require( './visualizations/vis-one' ).render( stops );
-    require( './visualizations/vis-two' ).render( stops );
+    // Structure the data from the server, triggering all linked views
+    stops.reset( data );
 
     // Show container
     containerNode.classList.add( 'fade-in' );

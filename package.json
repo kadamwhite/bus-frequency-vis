@@ -12,6 +12,7 @@
     "ampersand-collection": "^1.4.5",
     "ampersand-collection-lodash-mixin": "^2.0.1",
     "ampersand-model": "^5.0.3",
+    "ampersand-view": "^8.0.0",
     "body-parser": "~1.12.4",
     "browserify-middleware": "^5.0.2",
     "combynexpress": "^1.0.0",
