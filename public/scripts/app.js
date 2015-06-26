@@ -13,6 +13,7 @@ function renderVis( data ) {
   var stops = new StopCollection( parseData( data ) );
 
   require( './visualizations/vis-one' ).render( stops );
+  require( './visualizations/vis-two' ).render( stops );
 }
 
 d3.json( '/data', renderVis );

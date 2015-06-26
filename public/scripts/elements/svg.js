@@ -3,21 +3,34 @@
 var d3 = require( 'd3' );
 var _ = require( 'lodash' );
 
-var svg = d3.select( 'body' ).append( 'svg' );
+var svgElements = [];
 
 function getWidth() {
   // 30px margin on either side
   return document.body.clientWidth - 60;
 }
 
-function recomputeWidth() {
+function recomputeWidth( svg ) {
   var newWidth = getWidth;
   svg.attr( 'width', newWidth );
 }
 
-window.onresize = _.debounce( recomputeWidth, 16 );
+window.onresize = _.debounce(function() {
+  svgElements.forEach( recomputeWidth );
+}, 16 );
 
-// initial width computation
-recomputeWidth();
+function addSVG() {
+  var svg = d3.select( 'body' ).append( 'svg' );
 
-module.exports = svg;
+  // Add to SVG array
+  svgElements.push( svg );
+
+  // initial width computation
+  recomputeWidth( svg );
+
+  return svg;
+}
+
+module.exports = {
+  add: addSVG
+};
