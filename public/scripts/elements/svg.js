@@ -20,7 +20,7 @@ window.onresize = _.debounce(function() {
 }, 16 );
 
 function addSVG() {
-  var svg = d3.select( 'body' ).append( 'svg' );
+  var svg = d3.select( '#container' ).append( 'svg' );
 
   // Add to SVG array
   svgElements.push( svg );
