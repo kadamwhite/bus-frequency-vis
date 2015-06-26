@@ -20,4 +20,4 @@ window.onresize = _.debounce( recomputeWidth, 16 );
 // initial width computation
 recomputeWidth();
 
-return d3;
+module.exports = svg;
