@@ -1,14 +1,18 @@
 'use strict';
 
+var extend = require( 'lodash' ).extend;
+
 module.exports = function( grunt ) {
 
   // Reusable file globbing
   var files = {
     grunt: [ 'Gruntfile.js' ],
+    client: [
+      'public/**/*.js',
+      '!public/js/lib/**/*.js'
+    ],
     lib: [
       'app.js',
-      'public/**/*.js',
-      '!public/js/lib/**/*.js',
       'routes/**/*.js',
       'views/filters/**/*.js'
     ]
@@ -33,7 +37,7 @@ module.exports = function( grunt ) {
         src: files.grunt
       },
       lib: {
-        src: files.lib
+        src: files.lib.concat( files.client )
       }
     },
 
@@ -44,6 +48,12 @@ module.exports = function( grunt ) {
       grunt: {
         options: jshintrc,
         src: files.grunt
+      },
+      client: {
+        options: extend({
+          browser: true
+        }, jshintrc ),
+        src: files.client
       },
       lib: {
         options: jshintrc,
