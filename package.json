@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
+    "prepare-data": "./bin/prepare-data",
     "browserify": "browserify -t combynify ./public/scripts/app.js",
     "test": "grunt lint"
   },

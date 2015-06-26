@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var fs = require( 'fs' );
+var path = require( 'path' );
+
+var data = require( '../data.json' );
+var parseData = require( '../lib/parse-data' );
+
+var parsedData = JSON.stringify( parseData( data ) );
+
+var parsedDataFilePath = path.join( __dirname, '../parsed-data.json' );
+
+// Write the file
+fs.writeFileSync( parsedDataFilePath, parsedData, 'utf8' );
