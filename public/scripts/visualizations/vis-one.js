@@ -1,12 +1,15 @@
 'use strict';
 
 var svg = require( '../elements/svg' ).add();
+var addLabel = require( '../lib/add-label' );
 
 function renderVisOne( stops ) {
-  var vis = svg.append( 'g' );
+  addLabel( svg, {
+    p: 'Each row is a day of the week, each dot is a bus stopping at Benton Rd'
+  });
 
   stops.allDays().forEach(function renderDay( tripsForDay, dayIndex ) {
-    vis.append( 'g' ).selectAll( 'circle' )
+    svg.append( 'g' ).selectAll( 'circle' )
       .data( tripsForDay )
       .enter()
       .append( 'circle' )
@@ -24,7 +27,7 @@ function renderVisOne( stops ) {
         });
   });
 
-  return vis;
+  return svg;
 }
 
 module.exports = {

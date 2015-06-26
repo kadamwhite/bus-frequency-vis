@@ -1,14 +1,16 @@
 'use strict';
 
 var svg = require( '../elements/svg' ).add();
+var addLabel = require( '../lib/add-label' );
 
 function renderVisOne( stops ) {
-  var vis = svg.append( 'g' )
-  // A little lower down on the page
-    .attr( 'cy', 200 );
+  addLabel( svg, {
+    hr: '',
+    p: 'Vis Two'
+  });
 
   stops.allDays().forEach(function renderDay( tripsForDay, dayIndex ) {
-    vis.append( 'g' ).selectAll( 'circle' )
+    svg.append( 'g' ).selectAll( 'circle' )
       .data( tripsForDay )
       .enter()
       .append( 'circle' )
@@ -26,7 +28,7 @@ function renderVisOne( stops ) {
         });
   });
 
-  return vis;
+  return svg;
 }
 
 module.exports = {
