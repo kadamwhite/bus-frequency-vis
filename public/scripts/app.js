@@ -8,7 +8,7 @@ var containerNode = document.getElementById( 'container' );
 
 // DATA STRUCTURE
 
-var StopCollection = require( './collections/stop-collection' );
+var StopCollection = window.SC = require( './collections/stop-collection' );
 var SpinnerView = require( './views/spinner-view' );
 var ContainerView = require( './views/container-view' );
 

@@ -12,7 +12,6 @@ function addLabel( d3Element, label ) {
   _.map( label, function( contents, tagName ) {
     var labelNode = document.createElement( tagName );
     labelNode.textContent = contents;
-    console.log( labelNode );
     svgElement.parentNode.insertBefore( labelNode, svgElement );
   });
 }

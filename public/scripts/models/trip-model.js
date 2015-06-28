@@ -1,13 +1,24 @@
 var model = require( 'ampersand-model' );
 
+var dayUtils = require( '../lib/day-utils' );
+
 var TripModel = model.extend({
   props: {
-    day: 'string',
-    id: 'string',
+    day: 'number',
+    id: 'number',
     name: 'string',
-    routeId: 'string',
     route: 'string',
-    time: 'string'
+    routeId: 'string',
+    time: 'number'
+  },
+
+  derived: {
+    dayName: {
+      deps: [ 'day' ],
+      fn: function() {
+        return dayUtils.dayByIndex( this.day );
+      }
+    }
   }
 });
 

@@ -43,14 +43,15 @@ var StopsCollection = collection.extend( lodashMixin, {
    * @return {Array[]} An array of each day's TripModel arrays
    */
   allDays: function() {
+    // Group trips by day index (e.g. { '0': [], '1': [], ... })
     var groupsByDay = this.groupBy(function( trip ) {
       return trip.day;
     });
 
-    // sortBy iterator method returns the numeric index for the group's day
-    // name key (e.g. group with key "Sunday" is ordered first, as 0)
-    return _.sortBy( groupsByDay, function orderByDayIndex( trip, dayName ) {
-      return dayUtils.indexByDay( dayName );
+    // Use numeric ordering of group keys (day indices) to convert object to array
+    return _.sortBy( groupsByDay, function orderByDayIndex( group, dayIndex ) {
+      // coerce e.g. '1' -> 1
+      return +dayIndex;
     });
   }
 });
