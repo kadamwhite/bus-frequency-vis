@@ -1,7 +1,7 @@
 'use strict';
 
 var svg = require( '../../elements/svg' ).add();
-var addLabel = require( '../lib/add-label' );
+var addLabel = require( '../../lib/add-label' );
 
 function renderVisOne( stops ) {
   addLabel( svg, {

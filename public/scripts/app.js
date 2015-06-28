@@ -9,9 +9,8 @@ var containerNode = document.getElementById( 'container' );
 // DATA STRUCTURE
 
 var StopCollection = require( './collections/stop-collection' );
-// var VisOne = require( './views/visualizations/vis-one' );
-// var VisTwo = require( './views/visualizations/vis-two' );
 var SpinnerView = require( './views/spinner-view' );
+var ContainerView = require( './views/container-view' );
 
 var stops = new StopCollection([]);
 
@@ -22,22 +21,21 @@ var stops = new StopCollection([]);
 // var visTwo = new VisTwo({
 //   collection: stops
 // });
-var spinnerVis = new SpinnerView({
+var spinner = new SpinnerView({
+  el: document.querySelectorAll( '.spinner' ).item( 0 ),
+  collection: stops
+});
+var container = new ContainerView({
+  el: document.getElementById( 'container' ),
   collection: stops
 });
 
 // DATA RETRIEVAL
 function renderVis( data ) {
-
-  console.log( data );
-
   // Timeout to fade out the spinner
   setTimeout(function renderAllVisualizations() {
     // Structure the data from the server, triggering all linked views
     stops.reset( data );
-
-    // Show container
-    containerNode.classList.add( 'fade-in' );
   }, 300 );
 }
 

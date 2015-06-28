@@ -8,7 +8,6 @@ var SpinnerView = AmpersandView.extend({
    * Initialize the view
    */
   initialize: function() {
-    this.el = document.querySelectorAll( '.spinner' ).item( 0 );
     this.listenToOnce( this.collection, 'sync reset', this.fadeOut );
   },
 
