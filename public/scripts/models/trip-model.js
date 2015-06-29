@@ -1,3 +1,5 @@
+'use strict';
+
 var model = require( 'ampersand-model' );
 
 var dayUtils = require( '../lib/day-utils' );

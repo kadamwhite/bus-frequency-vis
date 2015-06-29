@@ -1,10 +1,7 @@
 'use strict';
+/* jshint unused: false */// directive to suppress lint errors for view vars
 
 var d3 = require( 'd3' );
-
-// ELEMENTS
-
-var containerNode = document.getElementById( 'container' );
 
 // DATA STRUCTURE
 
