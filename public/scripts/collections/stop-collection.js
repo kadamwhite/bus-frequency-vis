@@ -70,8 +70,8 @@ var TripsCollection = collection.extend( lodashMixin, {
 
     // Use numeric ordering of group keys (day indices) to convert object to array
     return _.sortBy( groupsByDay, function orderByDayIndex( group, dayIndex ) {
-      // coerce e.g. '1' -> 1
-      return +dayIndex;
+      // coerce e.g. '1' -> 1; change '0' (Sunday, falsy) to '7' so week starts on a Monday
+      return +dayIndex ? +dayIndex : 7;
     });
   },
 

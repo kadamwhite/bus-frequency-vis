@@ -2,7 +2,7 @@
 
 var d3 = require( 'd3' );
 
-var resizeStream = require( '../lib/resize.js' );
+var windowWidth = require( '../lib/window-width' );
 
 var svgElements = [];
 
@@ -12,7 +12,7 @@ function recomputeWidth( width ) {
   });
 }
 
-resizeStream.onValue( recomputeWidth );
+windowWidth.stream.onValue( recomputeWidth );
 
 function addSVG() {
   var svg = d3.select( '#container' ).append( 'svg' );
@@ -22,7 +22,7 @@ function addSVG() {
 
   // initial width computation
   // TODO: Some duplication b/w this and resize.js: can we force that stream to fire?
-  recomputeWidth( document.body.clientWidth - 60 );
+  recomputeWidth( windowWidth.get() );
 
   return svg;
 }
