@@ -7,6 +7,8 @@ var addLabel = require( '../../lib/add-label' );
 var TripModel = require( '../../models/trip-model' );
 var windowWidth = require( '../../lib/window-width' );
 
+svg.attr( 'height', 200 );
+
 function renderVisTwo( trips ) {
   addLabel( svg, {
     hr: '',
@@ -48,8 +50,14 @@ function renderVisTwo( trips ) {
   }
   window.svg = svg;
 
+  var xAxis = d3.svg.axis()
+    .scale( xScale )
+    .ticks( d3.time.hours, 2 )
+    .tickFormat( xScale.tickFormat( '%I %p' ) );
+
   function renderDayRow( tripsForDay, dayIndex ) {
-    svg.append( 'g' ).selectAll( 'circle' )
+    var group = svg.append( 'g' );
+    group.selectAll( 'circle' )
       .data( tripsForDay.models )
       .enter()
       .append( 'circle' )
@@ -68,6 +76,12 @@ function renderVisTwo( trips ) {
             return trip.route === '88' ? 'darkgreen' : 'darkorange';
           }
         });
+
+    // Render axis
+    group.append( 'g' )
+      // 150 = 20 (see cy, above) * 7 + 10 (for space)
+      .attr( 'transform', 'translate( 0, 150 )' )
+      .call( xAxis );
   }
 
   function render() {
