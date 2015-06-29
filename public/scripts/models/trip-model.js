@@ -5,11 +5,11 @@ var dayUtils = require( '../lib/day-utils' );
 var TripModel = model.extend({
   props: {
     day: 'number',
-    id: 'number',
     name: 'string',
     route: 'string',
     routeId: 'string',
-    time: 'number'
+    time: 'number',
+    tripId: 'number'
   },
 
   derived: {

@@ -30,13 +30,7 @@ var container = new ContainerView({
   collection: stops
 });
 
-// DATA RETRIEVAL
-function renderVis( data ) {
-  // Timeout to fade out the spinner
-  setTimeout(function renderAllVisualizations() {
-    // Structure the data from the server, triggering all linked views
-    stops.reset( data );
-  }, 300 );
-}
-
-d3.json( '/data', renderVis );
+// DATA RETRIEVAL: and yes this is overly cute
+d3.json( '/data', function( data ) {
+  stops.reset( data );
+});
