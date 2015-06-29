@@ -13,11 +13,11 @@ var dayUtils = require( '../lib/day-utils' );
 // }
 
 /**
- * @module StopsCollection
+ * @module TripsCollection
  * @constructor
- * @return {StopsCollection} A stops collection instance
+ * @return {TripsCollection} A stops collection instance
  */
-var StopsCollection = collection.extend( lodashMixin, {
+var TripsCollection = collection.extend( lodashMixin, {
 
   model: TripModel,
 
@@ -39,6 +39,26 @@ var StopsCollection = collection.extend( lodashMixin, {
   },
 
   /**
+   * Get the chronologically first trip in the collection
+   * @return {TripModel} The trip departing the earliest
+   */
+  earliest: function() {
+    return this.min(function( trip ) {
+      return trip.dt;
+    });
+  },
+
+  /**
+   * Get the chronologically last trip in the collection
+   * @return {TripModel} The trip departing the latest
+   */
+  latest: function() {
+    return this.max(function( trip ) {
+      return trip.dt;
+    });
+  },
+
+  /**
    * Return an array of arrays, as if calling byDay for every day of the week
    * @return {Array[]} An array of each day's TripModel arrays
    */
@@ -53,7 +73,17 @@ var StopsCollection = collection.extend( lodashMixin, {
       // coerce e.g. '1' -> 1
       return +dayIndex;
     });
+  },
+
+  /**
+   * Return an array of TripsCollection instances instead of vanilla arrays
+   * @return {TripsCollection[]} An array of TripsCollection instances, one per day
+   */
+  allDaysAsCollections: function() {
+    return _.map( this.allDays(), function( dayGroup ) {
+      return new TripsCollection( dayGroup );
+    });
   }
 });
 
-module.exports = StopsCollection;
+module.exports = TripsCollection;
