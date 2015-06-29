@@ -18,36 +18,27 @@ var TripModel = model.extend({
   derived: {
     dayName: {
       deps: [ 'day' ],
-      fn: function() {
+      fn: function getDayNameFromDayIndex() {
         return dayUtils.dayByIndex( this.day );
       }
     },
     dt: {
       deps: [ 'time' ],
-      fn: function() {
+      fn: function getDateFromApiTime() {
         return new Date( this.time * 1000 );
       }
     },
     timeInDay: {
       deps: [ 'dt' ],
-      fn: function() {
-        return this.dt - moment( this.dt ).startOf( 'day' ).toDate();
+      fn: function getTimeInDay() {
+        var time = this.dt - moment( this.dt ).startOf( 'day' ).toDate();
+        // We have to account for departures after midnight, which count for the
+        // preceding service day. If we're before 3am, we're actually "after"
+        // midnight: wrap around. 86400000 == one day, in ms (1000*60*60*24)
+        return time < 10800000 ? time + 86400000 : time;
       }
     }
   }
 });
-
-/**
- * @static
- */
-TripModel.timeFrom = function timeFrom( earlierTrip, laterTrip ) {
-  console.log( earlierTrip.timeInDay, laterTrip.timeInDay );
-  // Assume trips are passed in order: need to do this to account for times after midnight
-  if ( laterTrip.timeInDay < earlierTrip.timeInDay ) {
-    // 86400000 == one day, in milliseconds (1000*60*60*24)
-    return laterTrip.timeInDay + 86400000 - earlierTrip.timeInDay;
-  }
-  return laterTrip.timeInDay - earlierTrip.timeInDay;
-}
 
 module.exports = TripModel;

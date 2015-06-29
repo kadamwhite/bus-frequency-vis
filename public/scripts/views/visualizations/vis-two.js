@@ -32,6 +32,8 @@ function renderVisTwo( trips ) {
     return latestForDay.timeInDay > latestTrip.timeInDay ? latestForDay : latestTrip;
   }, null );
 
+  console.log( ( latestTrip.timeInDay - earliestTrip.timeInDay ) / 60 / 60 / 1000 );
+
   tripsByDay.forEach(function renderDay( tripsForDay, dayIndex ) {
     svg.append( 'g' ).selectAll( 'circle' )
       .data( tripsForDay.models )
