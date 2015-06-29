@@ -1,23 +1,18 @@
 'use strict';
 
 var d3 = require( 'd3' );
-var _ = require( 'lodash' );
+
+var resizeStream = require( '../lib/resize.js' );
 
 var svgElements = [];
 
-function getWidth() {
-  // 30px margin on either side
-  return document.body.clientWidth - 60;
+function recomputeWidth( width ) {
+  svgElements.forEach(function( svg ) {
+    svg.attr( 'width', width );
+  });
 }
 
-function recomputeWidth( svg ) {
-  var newWidth = getWidth;
-  svg.attr( 'width', newWidth );
-}
-
-window.onresize = _.debounce(function() {
-  svgElements.forEach( recomputeWidth );
-}, 16 );
+resizeStream.onValue( recomputeWidth );
 
 function addSVG() {
   var svg = d3.select( '#container' ).append( 'svg' );
@@ -26,7 +21,8 @@ function addSVG() {
   svgElements.push( svg );
 
   // initial width computation
-  recomputeWidth( svg );
+  // TODO: Some duplication b/w this and resize.js: can we force that stream to fire?
+  recomputeWidth( document.body.clientWidth - 60 );
 
   return svg;
 }

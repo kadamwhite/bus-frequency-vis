@@ -14,13 +14,8 @@ var ContainerView = require( './views/container-view' );
 
 var stops = new StopCollection([]);
 
-// Create the visualization elements
-// var visOne = new VisOne({
-//   collection: stops
-// });
-// var visTwo = new VisTwo({
-//   collection: stops
-// });
+// ELEMENTS
+
 var spinner = new SpinnerView({
   el: document.querySelectorAll( '.spinner' ).item( 0 ),
   collection: stops
@@ -30,7 +25,7 @@ var container = new ContainerView({
   collection: stops
 });
 
-// DATA RETRIEVAL: and yes this is overly cute
+// DATA RETRIEVAL
 d3.json( '/data', function( data ) {
   stops.reset( data );
 });
