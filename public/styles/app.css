@@ -64,6 +64,17 @@ a {
   font-size: 10px;
   font-weight: normal;
 }
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.line {
+  fill: none;
+  stroke: #4682b4;
+  stroke-width: 1.5px;
+}
 @-moz-keyframes stretchdelay {
   0%, 40%, 100% {
     -webkit-transform: scaleY(0.4);

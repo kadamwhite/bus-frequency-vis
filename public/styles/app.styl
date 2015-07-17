@@ -85,7 +85,26 @@ a {
   }
 }
 
+// D3 style overrides for axes (borrowed from http://bl.ocks.org/mbostock/3883245)
+
 .tick {
   font-size: 10px;
   font-weight: normal;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+// .x.axis path {
+//   display: none;
+// }
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
 }

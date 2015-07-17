@@ -89,6 +89,7 @@ function renderVisTwo( trips ) {
 
     // Render axis
     svg.append( 'g' )
+      .attr( 'class', 'x axis' )
       // 150 = 20 (see cy, above) * 7 + 10 (for space)
       .attr( 'transform', 'translate( 0, 150 )' )
       .call( xAxis );
