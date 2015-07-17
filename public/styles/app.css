@@ -60,6 +60,10 @@ a {
     -webkit-transform: scaleY(1);
   }
 }
+.tick {
+  font-size: 10px;
+  font-weight: normal;
+}
 @-moz-keyframes stretchdelay {
   0%, 40%, 100% {
     -webkit-transform: scaleY(0.4);
