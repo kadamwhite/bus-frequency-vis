@@ -8,7 +8,7 @@ var addLabel = require( '../../lib/add-label' );
 var windowWidth = require( '../../lib/window-width' );
 var d3 = require( 'd3' );
 
-svg.attr( 'height', 200 );
+svg.attr( 'height', 400 );
 
 function renderVisThree( trips ) {
   addLabel( svg, {
@@ -16,7 +16,7 @@ function renderVisThree( trips ) {
     p: 'Vis Three'
   });
 
-  var tripsByDay = trips.allDaysAsCollections();
+  var tripsByDay = trips.departingBetween( 7.5, 11 ).allDaysAsCollections();
 
   var earliestTrip = _.reduce( tripsByDay, function( earliestTrip, tripsForDay ) {
     var earliestForDay = tripsForDay.earliest();
@@ -59,21 +59,38 @@ function renderVisThree( trips ) {
     .tickFormat( d3.time.format( '%-I %p' ) );
 
   function renderDayRow( tripsForDay, dayIndex ) {
+    window.tripsForDay = tripsForDay;
+
+    tripsForDay.sortBy( 'timeInDay' ).forEach(function( trip, i, col ) {
+      var nextTrip = col[ i + 1 ];
+      if ( ! nextTrip ) {
+        return;
+      }
+      var toNextTrip = nextTrip.timeInDay.getTime() - trip.timeInDay.getTime();
+    });
+
     var group = svg.append( 'g' );
     group.selectAll( 'circle' )
       .data( tripsForDay.models )
       .enter()
-      .append( 'circle' )
+      // .append( 'path' )
+      //   .attr({
+      //     d:
+      //   })
+      .append( 'rect' )
         .attr({
-          cx: function( trip, tripIndex ) {
+          x: function( trip, tripIndex ) {
             return xScale( trip.timeInDay );
             // return tripIndex * 8 + 3; // 4 px apart, 4 px wide
           },
-          cy: function() {
-            return 20 * dayIndex + 3;
+          y: function() {
+            return 40 * dayIndex + 2;
           },
-          r: function() {
-            return 2;
+          height: function() {
+            return 35;
+          },
+          width: function() {
+            return 1;
           },
           fill: function( trip ) {
             return trip.route === '88' ? 'darkgreen' : 'darkorange';
@@ -90,8 +107,8 @@ function renderVisThree( trips ) {
     // Render axis
     svg.append( 'g' )
       .attr( 'class', 'x axis' )
-      // 150 = 20 (see cy, above) * 7 + 10 (for space)
-      .attr( 'transform', 'translate( 0, 150 )' )
+      // 150 = 40 (see "y", above) * 7 + 10 (for space)
+      .attr( 'transform', 'translate( 0, 290 )' )
       .call( xAxis );
   }
 
