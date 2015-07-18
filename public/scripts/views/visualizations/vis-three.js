@@ -56,6 +56,23 @@ function renderVisThree( trips ) {
     xScale.rangeRound([ 20, width - 40 ]);
   }
 
+  trips.forEach( addNextTripInfo );
+
+  // We look for the longest wait irrespective of the day: the worst day will
+  // put the easier ones in perspective, right?
+  var longestWait = trips.reduce(function( longestWait, trip ) {
+    // Only care about waits within a single service day
+    if ( trip.nextTrip && trip.nextTrip.day !== trip.day ) {
+      return longestWait;
+    }
+    if ( trip.timeToNextTrip > longestWait ) {
+      longestWait = trip.timeToNextTrip;
+    }
+    return longestWait;
+  }, 0 );
+
+  // console.log( longestWait );
+
   var xAxis = d3.svg.axis()
     .scale( xScale )
     .ticks( d3.time.minutes, 30 )
@@ -64,14 +81,6 @@ function renderVisThree( trips ) {
   function renderDayRow( tripsForDay, dayIndex ) {
     // Add next trip info to all trip objects
     tripsForDay.sortBy( 'timeInDay' );
-    tripsForDay.forEach( addNextTripInfo );
-
-    var longestWait = tripsForDay.reduce(function( longestWait, trip ) {
-      if ( trip.timeToNextTrip > longestWait ) {
-        longestWait = trip.timeToNextTrip;
-      }
-      return longestWait;
-    }, 0 );
 
     var yScale = d3.scale.linear()
       .domain([ 0, longestWait ])
@@ -105,9 +114,13 @@ function renderVisThree( trips ) {
             if ( ! trip.nextTrip ) {
               return 1;
             }
-            return xScale( trip.nextTrip.timeInDay ) - xScale( trip.timeInDay ) - 1;
+            var width = xScale( trip.nextTrip.timeInDay ) - xScale( trip.timeInDay );
+            return width ? width - 1 : width;
           },
           fill: function( trip ) {
+            if ( ! trip.timeToNextTrip ) {
+              return 'black';
+            }
             return colorScale( trip.timeToNextTrip );
             // return trip.route === '88' ? 'darkgreen' : 'darkorange';
           }
