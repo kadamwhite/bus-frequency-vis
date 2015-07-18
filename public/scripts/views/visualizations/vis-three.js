@@ -50,13 +50,8 @@ function renderVisThree( trips ) {
 
   var xAxis = d3.svg.axis()
     .scale( xScale )
-    .ticks( d3.time.hours, 3 )
-    // Avoid the axis' default multi-formatter, because we don't care about the
-    // calendar date rolling over at midnight: we only need the hours.
-    // %I: hours, 12 through 11
-    // %p: AM or PM
-    // %-: suppress 0-padding (e.g., 9 instead of 09)
-    .tickFormat( d3.time.format( '%-I %p' ) );
+    .ticks( d3.time.minutes, 30 )
+    .tickFormat( xScale.tickFormat() );
 
   function renderDayRow( tripsForDay, dayIndex ) {
     window.tripsForDay = tripsForDay;
