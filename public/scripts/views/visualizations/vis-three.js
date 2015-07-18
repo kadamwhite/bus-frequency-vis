@@ -10,6 +10,15 @@ var d3 = require( 'd3' );
 
 svg.attr( 'height', 400 );
 
+/**
+ * Helper function for use within renderDayRow
+ */
+function addNextTripInfo( trip, i, col ) {
+  var nextTrip = col[ i + 1 ];
+  // var toNextTrip = nextTrip.timeInDay.getTime() - trip.timeInDay.getTime();
+  trip.nextTrip = nextTrip || null;
+}
+
 function renderVisThree( trips ) {
   addLabel( svg, {
     hr: '',
@@ -36,7 +45,7 @@ function renderVisThree( trips ) {
     return latestForDay.timeInDay > latestTrip.timeInDay ? latestForDay : latestTrip;
   }, null );
 
-  var xScale = window.xScale = d3.time.scale()
+  var xScale = d3.time.scale()
     .domain([ earliestTrip.timeInDay, latestTrip.timeInDay ]);
 
   // Scale Range: Map to viewport, w/ extra 20px padding on either side
@@ -46,7 +55,6 @@ function renderVisThree( trips ) {
     }
     xScale.rangeRound([ 20, width - 40 ]);
   }
-  window.svg = svg;
 
   var xAxis = d3.svg.axis()
     .scale( xScale )
@@ -54,15 +62,24 @@ function renderVisThree( trips ) {
     .tickFormat( xScale.tickFormat() );
 
   function renderDayRow( tripsForDay, dayIndex ) {
-    window.tripsForDay = tripsForDay;
+    // Add next trip info to all trip objects
+    tripsForDay.sortBy( 'timeInDay' );
+    tripsForDay.forEach( addNextTripInfo );
 
-    tripsForDay.sortBy( 'timeInDay' ).forEach(function( trip, i, col ) {
-      var nextTrip = col[ i + 1 ];
-      if ( ! nextTrip ) {
-        return;
+    var longestWait = tripsForDay.reduce(function( longestWait, trip ) {
+      if ( trip.timeToNextTrip > longestWait ) {
+        longestWait = trip.timeToNextTrip;
       }
-      var toNextTrip = nextTrip.timeInDay.getTime() - trip.timeInDay.getTime();
-    });
+      return longestWait;
+    }, 0 );
+
+    var yScale = d3.scale.linear()
+      .domain([ 0, longestWait ])
+      .range([ 0, 35 ]);
+
+    var colorScale = window.colorScale = d3.scale.linear()
+      .domain([ 0, longestWait ])
+      .range([ 'green', 'red' ]);
 
     var group = svg.append( 'g' );
     group.selectAll( 'circle' )
@@ -78,17 +95,21 @@ function renderVisThree( trips ) {
             return xScale( trip.timeInDay );
             // return tripIndex * 8 + 3; // 4 px apart, 4 px wide
           },
-          y: function() {
+          y: function( trip ) {
             return 40 * dayIndex + 2;
           },
-          height: function() {
-            return 35;
+          height: function( trip ) {
+            return yScale( trip.timeToNextTrip );
           },
-          width: function() {
-            return 1;
+          width: function( trip ) {
+            if ( ! trip.nextTrip ) {
+              return 1;
+            }
+            return xScale( trip.nextTrip.timeInDay ) - xScale( trip.timeInDay ) - 1;
           },
           fill: function( trip ) {
-            return trip.route === '88' ? 'darkgreen' : 'darkorange';
+            return colorScale( trip.timeToNextTrip );
+            // return trip.route === '88' ? 'darkgreen' : 'darkorange';
           }
         });
   }

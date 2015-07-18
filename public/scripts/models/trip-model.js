@@ -19,7 +19,10 @@ var TripModel = model.extend({
     route: 'string',
     routeId: 'string',
     time: 'number',
-    tripId: 'number'
+    tripId: 'number',
+
+    // Non-API properties added by some visualizations
+    nextTrip: 'object'
   },
 
   derived: {
@@ -100,6 +103,16 @@ var TripModel = model.extend({
 
         // Done!
         return new Date( timeInDay );
+      }
+    },
+
+    timeToNextTrip: {
+      deps: [ 'nextTrip' ],
+      fn: function getTimeToNextTrip() {
+        if ( ! this.nextTrip ) {
+          return 0;
+        }
+        return this.nextTrip.timeInDay - this.timeInDay;
       }
     }
   }
