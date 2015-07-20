@@ -7,8 +7,9 @@ var addLabel = require( '../../lib/add-label' );
 //var TripModel = require( '../../models/trip-model' );
 var windowWidth = require( '../../lib/window-width' );
 var d3 = require( 'd3' );
+var ROW_HEIGHT = 70;
 
-svg.attr( 'height', 400 );
+svg.attr( 'height', ROW_HEIGHT * 7 + 40 );
 
 /**
  * Helper function for use within renderDayRow
@@ -22,7 +23,7 @@ function addNextTripInfo( trip, i, col ) {
 function renderVisFive( trips ) {
   addLabel( svg, {
     hr: '',
-    p: 'Vis Five (awesome mistake)'
+    p: 'Vis Six'
   });
 
   var tripsByDay = trips.departingBetween( 7.5, 11 ).allDaysAsCollections();
@@ -82,11 +83,12 @@ function renderVisFive( trips ) {
 
     var yScale = d3.scale.linear()
       .domain([ 0, longestWait ])
-      .range([ 0, 35 ]);
+      .range([ 0, ROW_HEIGHT - 5 ]);
 
-    // var colorScale = d3.scale.linear()
-    //   .domain([ 0, longestWait ])
-    //   .range([ 'green', 'red' ]);
+    var colorScale = d3.scale.linear()
+      // half-way b/w red and green is actually 3/4 across the space
+      .domain([ 0, longestWait / 4, longestWait ])
+      .range([ 'green', '#464000', 'darkred' ]);
 
     var group = svg.append( 'g' );
     group.selectAll( 'circle' )
@@ -102,7 +104,7 @@ function renderVisFive( trips ) {
             'translate(',
             xScale( trip.timeInDay ),
             ',',
-            40 * dayIndex + 2,
+            ROW_HEIGHT * dayIndex + 2,
             ')'
           ].join( '' );
         })
@@ -112,24 +114,41 @@ function renderVisFive( trips ) {
           var group = d3.select( this );
           var i = 0;
 
-          var localScale = d3.scale.linear()
-            .domain([ 40 - maxY, 0 ])
-            .range([ 0, width ]);
+          var localScale = window.localScale = d3.scale.linear()
+            .domain([ 0, width ])
+            .range([ maxY, 0 ]);
 
-          function yFn() {
-            return localScale( i );
+          var localColorScale = d3.scale.linear()
+            .domain([ 0, width ])
+            .range([ colorScale( trip.timeToNextTrip ), 'green' ]);
+
+          // The goal:
+          // |
+          // ||
+          // ||| (etc)
+          /* jshint loopfunc:true */
+          var lineFunction = d3.svg.line()
+            .x(function() {
+              return i; // Static per iteration
+            })
+            .y(function( n ) {
+              // n is one element of a linear number array to be passed in
+              // THERE HAS TO BE A BETTER WAY TO DO THIS
+              return n;
+            })
+            .interpolate( 'linear' );
+
+          function strokeColorFn() {
+            return localColorScale( i );
           }
 
-          for ( i; i < width - 2; i = i + 2 ) {
-            group.append( 'rect' )
-              .attr({
-                height: yScale( trip.timeToNextTrip ),
-                width: 2,
-                x: i,
-                y: yFn
-              });
+          for ( i; i < width; i++ ) {
+            group.append( 'path' )
+              .attr( 'd', lineFunction([ ROW_HEIGHT - localScale( i ), ROW_HEIGHT ]) )
+              .attr( 'stroke', strokeColorFn )
+              .attr( 'stroke-width', 1 )
+              .attr( 'fill', 'none' );
           }
-          // console.log( d3.select( this ).append );
         });
   }
 
@@ -142,8 +161,8 @@ function renderVisFive( trips ) {
     // Render axis
     svg.append( 'g' )
       .attr( 'class', 'x axis' )
-      // 150 = 40 (see "y", above) * 7 + 10 (for space)
-      .attr( 'transform', 'translate( 0, 290 )' )
+      // Axis should be below all rows, ergo ROW_HEIGHT * 7 + 10 (for space)
+      .attr( 'transform', 'translate( 0, ' + ( ROW_HEIGHT * 7 + 10 ) + ' )' )
       .call( xAxis );
   }
 
