@@ -8,6 +8,8 @@ var addLabel = require( '../../lib/add-label' );
 var windowWidth = require( '../../lib/window-width' );
 var d3 = require( 'd3' );
 
+var makeGradient = require( '../../lib/svg-gradient' ).generate;
+
 svg.attr( 'height', 400 );
 
 /**
@@ -22,7 +24,7 @@ function addNextTripInfo( trip, i, col ) {
 function renderVisThree( trips ) {
   addLabel( svg, {
     hr: '',
-    p: 'Vis Three'
+    p: 'Vis Four (gradient shading)'
   });
 
   var tripsByDay = trips.departingBetween( 7.5, 11 ).allDaysAsCollections();
@@ -71,7 +73,10 @@ function renderVisThree( trips ) {
     return longestWait;
   }, 0 );
 
-  // console.log( longestWait );
+  var gradient = makeGradient( svg, {
+    from: 'red',
+    to: 'green'
+  });
 
   var xAxis = d3.svg.axis()
     .scale( xScale )
@@ -86,9 +91,9 @@ function renderVisThree( trips ) {
       .domain([ 0, longestWait ])
       .range([ 0, 35 ]);
 
-    var colorScale = window.colorScale = d3.scale.linear()
-      .domain([ 0, longestWait ])
-      .range([ 'green', 'red' ]);
+    // var colorScale = window.colorScale = d3.scale.linear()
+    //   .domain([ 0, longestWait ])
+    //   .range([ 'green', 'red' ]);
 
     var group = svg.append( 'g' );
     group.selectAll( 'circle' )
@@ -118,11 +123,7 @@ function renderVisThree( trips ) {
             return width ? width - 1 : width;
           },
           fill: function( trip ) {
-            if ( ! trip.timeToNextTrip ) {
-              return 'black';
-            }
-            return colorScale( trip.timeToNextTrip );
-            // return trip.route === '88' ? 'darkgreen' : 'darkorange';
+            return gradient.fillAttr;
           }
         });
   }
