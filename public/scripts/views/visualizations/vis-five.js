@@ -19,7 +19,7 @@ function addNextTripInfo( trip, i, col ) {
   trip.nextTrip = nextTrip || null;
 }
 
-function renderVisThree( trips ) {
+function renderVisFive( trips ) {
   addLabel( svg, {
     hr: '',
     p: 'Vis Five'
@@ -96,29 +96,54 @@ function renderVisThree( trips ) {
       //   .attr({
       //     d:
       //   })
-      .append( 'rect' )
-        .attr({
-          x: function( trip, tripIndex ) {
-            return xScale( trip.timeInDay );
-            // return tripIndex * 8 + 3; // 4 px apart, 4 px wide
-          },
-          y: function( trip ) {
-            return 40 * dayIndex + 2;
-          },
-          height: function( trip ) {
-            return yScale( trip.timeToNextTrip );
-          },
-          width: function( trip ) {
-            if ( ! trip.nextTrip ) {
-              return 1;
-            }
-            var width = xScale( trip.nextTrip.timeInDay ) - xScale( trip.timeInDay );
-            return width ? width - 1 : width;
-          },
-          fill: function( trip ) {
-            return gradient.fillAttr;
+      .append( 'g' )
+        .attr( 'transform', function( trip ) {
+          return [
+            'translate(',
+            xScale( trip.timeInDay ),
+            ',',
+            40 * dayIndex + 2,
+            ')'
+          ].join( '' );
+        })
+        .each(function( trip ) {
+          var width = xScale( trip.nextTrip.timeInDay ) - xScale( trip.timeInDay );
+          var maxY = yScale( trip.timeToNextTrip );
+          var group = d3.select( this );
+
+          var localScale = d3.scale.linear()
+            .domain([ 40 - maxY, 0 ])
+            .range([ 0, width ]);
+
+          for ( var i = 0; i < width - 2; i = i + 2 ) {
+            group.append( 'rect' )
+              .attr({
+                height: yScale( trip.timeToNextTrip ),
+                width: 2,
+                x: i,
+                y: function() {
+                  return localScale( i );
+                }
+              });
           }
-        });
+          // console.log( d3.select( this ).append );
+        })
+        // .append( 'rect' )
+        // .attr({
+        //   height: function( trip ) {
+        //     return yScale( trip.timeToNextTrip );
+        //   },
+        //   width: function( trip ) {
+        //     if ( ! trip.nextTrip ) {
+        //       return 1;
+        //     }
+        //     var width = xScale( trip.nextTrip.timeInDay ) - xScale( trip.timeInDay );
+        //     return width ? width - 1 : width;
+        //   },
+        //   fill: function( trip ) {
+        //     return;
+        //   }
+        // });
   }
 
   function render() {
@@ -150,5 +175,5 @@ function renderVisThree( trips ) {
 }
 
 module.exports = {
-  render: renderVisThree
+  render: renderVisFive
 };

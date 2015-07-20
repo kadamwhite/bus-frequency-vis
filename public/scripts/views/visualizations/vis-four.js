@@ -21,7 +21,7 @@ function addNextTripInfo( trip, i, col ) {
   trip.nextTrip = nextTrip || null;
 }
 
-function renderVisThree( trips ) {
+function renderVisFour( trips ) {
   addLabel( svg, {
     hr: '',
     p: 'Vis Four (gradient shading)'
@@ -157,5 +157,5 @@ function renderVisThree( trips ) {
 }
 
 module.exports = {
-  render: renderVisThree
+  render: renderVisFour
 };

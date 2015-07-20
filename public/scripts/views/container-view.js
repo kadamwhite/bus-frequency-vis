@@ -3,10 +3,10 @@
 var AmpersandView = require( 'ampersand-view' );
 
 // Pull in the views wrapped in this container
-var VisOne = require( './visualizations/vis-one' );
-var VisTwo = require( './visualizations/vis-two' );
-var VisThree = require( './visualizations/vis-three' );
-var VisFour = require( './visualizations/vis-four' );
+// var VisOne = require( './visualizations/vis-one' );
+// var VisTwo = require( './visualizations/vis-two' );
+// var VisThree = require( './visualizations/vis-three' );
+// var VisFour = require( './visualizations/vis-four' );
 var VisFive = require( './visualizations/vis-five' );
 
 var ContainerView = AmpersandView.extend({
@@ -33,10 +33,10 @@ var ContainerView = AmpersandView.extend({
    * Render the view
    */
   render: function() {
-    VisOne.render( this.collection );
-    VisTwo.render( this.collection );
-    VisThree.render( this.collection );
-    VisFour.render( this.collection );
+    // VisOne.render( this.collection );
+    // VisTwo.render( this.collection );
+    // VisThree.render( this.collection );
+    // VisFour.render( this.collection );
     VisFive.render( this.collection );
   }
 
