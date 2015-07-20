@@ -1,7 +1,6 @@
 'use strict';
 
 var model = require( 'ampersand-model' );
-var moment = require( 'moment' );
 var d3 = require( 'd3' );
 
 var dayUtils = require( '../lib/day-utils' );
