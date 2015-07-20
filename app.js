@@ -43,6 +43,11 @@ browserify.settings({
   ]
 });
 
+// Uncomment these to make loading the page take forever, but
+// MASSIVELY reduce the file size of the generated bundle
+// browserify.settings.development( 'gzip', true );
+// browserify.settings.development( 'minify', true );
+
 // Bundle and serve first-party application code
 app.get( '/scripts/app.js', browserify( path.join( publicDir, 'scripts/app.js' ) ) );
 

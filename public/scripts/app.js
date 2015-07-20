@@ -26,3 +26,5 @@ var container = new ContainerView({
 d3.json( '/data', function( data ) {
   stops.reset( data );
 });
+// Swap this in for the prior to help in rendering a static page
+// stops.reset( require( '../../parsed-data.json' ) );
