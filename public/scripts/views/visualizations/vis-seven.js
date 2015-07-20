@@ -150,6 +150,63 @@ function renderVisFive( trips ) {
               .attr( 'fill', 'none' );
           }
         });
+
+    var tripsByHalfHour = tripsForDay.groupBy(function( trip ) {
+      var hourOfTrip = trip.timeInMs / 1000 / 60 / 60;
+      var roundedToHalfHour = Math.floor( hourOfTrip * 2 ) / 2;
+      return roundedToHalfHour.toFixed( 1 );
+    });
+
+    // Figure out the peak number of trips for any half-hour period this day
+    var maxTripsPerPeriod = _.chain( tripsByHalfHour )
+      .map(function( tripGroup ) {
+        return tripGroup.length;
+      })
+      .max()
+      .value();
+
+    // Make a scale based on the trip count per period
+    var tripFrequencyScale = d3.scale.linear()
+      .domain([ 0, maxTripsPerPeriod ])
+      .range([ ROW_HEIGHT - 5, 0 ]);
+
+    // Clumsily get the first and last half-hour windows we're interested in
+    function asNum( val ) {
+      return +val;
+    }
+    var firstPeriod = +_.first( _.keys( tripsByHalfHour ) );
+    var lastPeriod = +_.last( _.keys( tripsByHalfHour ) );
+
+    // Make an array representing every period
+    var allPeriods = _.range( firstPeriod, lastPeriod, 0.5 );
+
+    // var lineCoords = _.map( allPeriods, function( period ) {
+    //   var tripsInPeriod = tripsByHalfHour[ period ];
+    //   if ( ! tripsInPeriod ) {}
+    //   return {
+    //     x: xScale( _.first( tripsInPeriod ).timeInDay ),
+    //     y: tripFrequencyScale( tripsInPeriod ? tripsInPeriod.length : 0 )
+    //   };
+    // });
+
+    // console.log( lineCoords );
+
+    // var tripFrequencyLine = d3.svg.line()
+    //   .x(function( d ) {
+    //     return d.x;
+    //   })
+    //   .y(function( d ) {
+    //     return d.y;
+    //   })
+    //   .interpolate( 'basis' );
+
+    // // group.append( 'path' )
+    // //   .attr( 'd', tripFrequencyLine( lineCoords ) )
+    // //   .attr( 'stroke', 'black' )
+    // //   .attr( 'stroke-width', 1 )
+    // //   .attr( 'fill', 'none' );
+
+    // console.log( tripsByHalfHour );
   }
 
   function render() {

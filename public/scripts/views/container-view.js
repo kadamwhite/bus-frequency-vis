@@ -4,12 +4,12 @@ var AmpersandView = require( 'ampersand-view' );
 
 // Pull in the views wrapped in this container
 var visualizations = [
-  require( './visualizations/vis-one' ),
-  require( './visualizations/vis-two' ),
-  require( './visualizations/vis-three' ),
-  require( './visualizations/vis-four' ),
-  require( './visualizations/vis-five' ),
-  require( './visualizations/vis-six' ),
+  // require( './visualizations/vis-one' ),
+  // require( './visualizations/vis-two' ),
+  // require( './visualizations/vis-three' ),
+  // require( './visualizations/vis-four' ),
+  // require( './visualizations/vis-five' ),
+  // require( './visualizations/vis-six' ),
   require( './visualizations/vis-seven' )
 ];
 
