@@ -91,8 +91,6 @@ function generate( svg, opts ) {
     .attr( 'stop-color', colorTo )
     .attr( 'stop-opacity', 1 );
 
-  console.log( fillAttr( attrs.id ) );
-
   return {
     id: attrs.id,
     fillAttr: fillAttr( attrs.id ),

@@ -7,6 +7,7 @@ var VisOne = require( './visualizations/vis-one' );
 var VisTwo = require( './visualizations/vis-two' );
 var VisThree = require( './visualizations/vis-three' );
 var VisFour = require( './visualizations/vis-four' );
+var VisFive = require( './visualizations/vis-five' );
 
 var ContainerView = AmpersandView.extend({
 
@@ -36,6 +37,7 @@ var ContainerView = AmpersandView.extend({
     VisTwo.render( this.collection );
     VisThree.render( this.collection );
     VisFour.render( this.collection );
+    VisFive.render( this.collection );
   }
 
 });
